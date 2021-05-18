@@ -1,0 +1,1814 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lægebog om pest</title>
+                <author>Henrik Smith</author>
+                <editor><name><forename xml:id="ss"
+                            >Simon</forename><forename>Skovgaard</forename><surname>Boeck</surname></name></editor>
+                <editor><name xml:id="th"
+                        ><forename>Thomas</forename><surname>Hansen</surname></name></editor>
+                <funder>Cand. Pharm. Povl M. Assens Fond</funder>
+
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Det Danske Sprog- og Litteraturselskab</publisher>
+                <pubPlace>København</pubPlace>
+                <date>2017-10-01</date>
+                <availability status="restricted">
+                    <ab>Tekst copyright 2017 DSL</ab>
+                </availability>
+                <availability status="restricted">
+                    <ab>Digital faksimile copyright 2015</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Det Kongelige Bibliotek</repository>
+                                <idno>LN 1508</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="old-danish-lemmatizer" version="0.1">
+                    <desc>bla</desc>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date when="1577">1577</date>
+            </creation>
+            <abstract>
+                <ab/>
+            </abstract>
+            <langUsage>
+                <language ident="gda"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>medicin</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage xml:id="titelblad">
+                <docTitle>
+                    <titlePart>En Bog om Pe<lb rend="="/>stilentzis Aarsage / foruaring oc Læ<lb
+                            rend="="/>gedom der imod / tilsammen dragen aff Lærde<lb rend="="/>mends
+                        Bøger / aff Henrick Smidt vdi Mal<lb rend="="/>mø / oc først vdgaaet ved
+                        Prenten. Anno <lb/> M. D. xxxv. Nu offuerseet / for<lb rend="="/>øget oc
+                        forbedret. Anno <lb/> M. D Lvij.</titlePart>
+                </docTitle>
+                <!--<figure>
+                <figDesc>nil</figDesc>
+            </figure>-->
+                <docImprint>Prentet i Kiøbenhaffn. <lb/> #S+<hi rend="antiqua">ANNO</hi>#S- <lb/>
+                    ------------------------------ <lb/>
+                    <hi rend="antiqua">M. D. LXXVII</hi>.</docImprint>
+            </titlePage>
+            <pb/>
+            <div>
+                <head>
+                    <reg>Forord til Claus Urne</reg>
+                </head>
+                <opener>
+                    <pb/>Erlig oc Velbyrdig Mand / Claus <lb/> Vrne til Belteberg / Prouest vdi Lund
+                    / Konge<lb rend="="/>lige Maiestats Mand oc Raad / ynsker ieg Henrick <lb/> Smid
+                    vdi Malmø Lycke oc Salighed / Di<lb rend="="/>sligeste min ydmyge vilie tieniste
+                    <lb/> aff min fattige formue / <lb/> nu oc altid.</opener>
+                <p> KJere Claus synderlige go<lb rend="="/>de Ven oc Fadder / Jvide vel at der
+                    findis mange steder vdi den hellige Scrifft / oc serdelis vdi den ij. Mose Bog /
+                    vdi det v. oc ix. Cap / Oc vdi den iij. Mosi Bog / vdi det xxvj. Cap. Oc vdi den
+                    iiij. Mosi Bog / xxviij. Capit. Disligeste oc vdi den i Kongernis Bog vdi det
+                    viij. Cap. At Pesti<lb rend="="/>lentze er en besynderlig Guds straff oc Vrede /
+                    met huilcken hand straffer / dem som hannem oc hans hellige Ord foracte / oc
+                    hannem vdi all wgude<lb rend="="/>lighed met store groffue Synder høylige
+                        fortør<lb rend="="/>ne. Oc effterdi at denne er en besynderlig Guds straff /
+                    da fordriffuis hand tuende maade. Først at mand giffuer sig aldelis ind til Gud
+                    / oc bekien<lb rend="="/>der oc angrer sin Synd / dog icke som Cain / Judas / oc
+                    andre haffue giort / Men mand skal oc forlade sig paa Guds Naade oc Miskundhed /
+                    saa at hand vil vere oss naadig oc barmhiertig <pb/> for hans elskelige Søns
+                    Jhesu Christi skyld / som er vor Frelsere oc Talsinand hos Gud. Det an<lb
+                        rend="="/>det er / at mand skal sætte alle ting vdi Guds Haand / oc bruge
+                    saa de middel som hand der til skafft haffuer / som er Lægedom. Oc naar som wi
+                    saaledis handle / da gaar det vel til / Jhuor<lb rend="="/>ledis det gaar til
+                    met oss / naar som det gaar eff<lb rend="="/>ter den euige Guds forsiun oc
+                    vilie.</p>
+                <p rend="indent">Kiære Claus synderlige gode Ven / Før end ieg noget ydermere
+                    handler vdi denne min Bog / vil ieg her bescriffue huad Pestilentze er / som
+                        Læ<lb rend="="/>gerne hende bescriffue Pestilentze er en ond Kaal<lb
+                        rend="="/>desiuge som kommer aff ont forgifftigt Væder oc Luct / aff
+                    huilcket Menniskens nature oc Blod forderffuis / oc naar som Mennisken drager
+                    den onde forgifftige Luct ind vdi sig ved sin Aande / da gaar hun indtil Hiertet
+                    / det bliffuer saa der aff forgiffuet oc befenget / oc naar som it Men<lb
+                        rend="="/>niske / er saa befengt / da forgiffuer siden det ene det
+                    andet.</p>
+                <p rend="indent">Kiære Claus synderlige gode Ven / Huor<lb rend="="/>ledis det ene
+                    befengde Menniske forgiffuer det an<lb rend="="/>det / Oc huorledis de som
+                    befengde ere / skulle ski<lb rend="="/>cke oc holde sig scriffuer Doctor Morthen
+                    Luther saare herlige vdi denne Bog / om mand maa fly for Døden oc Pestilentze /
+                    huilcket hans Raad oc Lærdomme saare nyttelige ere / thi vil ieg dem <pb/> her
+                    indføre / oc dem bruge til en fortale vdi denne min Lægebog om Pestilentze oc
+                    Eder / hues Ord saa liude:</p>
+                <p rend="indent">Doctor Morthen Luthers raad om Pesti<lb rend="="/>lentze. Somme
+                    synde for saare paa den høyre si<lb rend="="/>de oc ere for meget dierffue oc
+                    dristige / friste oc for<lb rend="="/>søge Gud / oc lade alting staa oc fare /
+                    oc foracte det som de skulde hielpe dem met mod Døden eller Pestilentze oc anden
+                    Siugdom / som ere: Vrter oc Lægedom / oc ville icke bruge dem / oc de sky
+                        huer<lb rend="="/>cken sted eller Personer / som ere befengde oc for<lb
+                        rend="="/>giffne met Pestilentze / men de dricke / doble oc col<lb rend="="
+                    />latie met dem / oc der met ville de beuise at de ere frimodige / dristige oc
+                    wforfærede / Oc de sige saa: Det er Guds straff / vil hand beuare mig for
+                    Pestilentze / da giør hand det vel / vden alle Vr<lb rend="="/>ter oc
+                    Lægedom.</p>
+                <p rend="indent">Saadant er icke at lyde oc tro Gud / men at friste oc forsøge
+                    hannem. Thi Gud haffuer skafft Lægedom / oc giffuet oss Fornufft til at forestaa
+                    vort Legeme / oc der met beuare / at det kand vere karst oc helbrede / oc leffue
+                    saa lenge Gud vil. Huo som nu saadant icke bruger / der met hand vel maatte oc
+                    kunde / vden sin Næstis skade oc for<lb rend="="/>sømmelse / hand forkaster
+                    selff sit Liff / oc see sig vel til / at hand findis icke at vere sin egen
+                        Mandra<lb rend="="/>bere faar Gud.</p>
+                <p rend="indent">
+                    <pb/>Thi met denne viis maatte oc nogen met sam<lb rend="="/>me skel forsmaa oc
+                    foracte Mad / Øll / Hus oc Klæder / oc vere dristig i sin tro oc sige: Vil Gud
+                    beuare mig for Hunger / Tørst / Kuld oc Frost / det kand hand vel giøre / vden
+                    Mad / Øll oc Klæder / oc vilde lade det saa bliffue / oc huercken aade eller
+                    drucke / Ja visselig vaar saadan en sin egen Man<lb rend="="/>drabere.</p>
+                <p rend="indent">Oc der met saa meget mere / oc er end grue<lb rend="="/>ligere / at
+                    en saadan forkaster selff sit Liff / i det at hand icke skyer Pestilentzen /
+                    eller hielper til saa me<lb rend="="/>get som hannem mueligt er / at stilie det
+                    som mand kand fare ilde aff / Men forderffuer oc forkaster mange flere met sig /
+                    som aff saadan Siugdom forgiffuis / som ellers vel bleffue leffuendis / om hand
+                    haffde røctet sit Legeme som hand er plic<lb rend="="/>tig / oc er saaledis
+                    skyldig i sin Næstis død / oc er offte en Manddrabere faar Gud.</p>
+                <p rend="indent">Sandelige saadanne Menniske ere lige som / naar ild vaare løs i it
+                    Hus / eller nogen By bren<lb rend="="/>de / oc ingen hiulpe eller reddede / men
+                    lode Jlden faa fremgang / saa at den gantske Stad opbren<lb rend="="/>de / oc
+                    dissimellem sagde. Vil Gud / saa frier hand vel denne Stad vden Vand eller at
+                    slycke.</p>
+                <p rend="indent">Ney icke saa min kiære Ven det er icke saa vel flyt / men brug
+                    Lægedom / tag til dig huad som dig hielpe kand / brent Eneber oc andre gode
+                        vellue<lb rend="="/>
+                    <pb/> tendis Vrter / oc giør røg aff dem vdi din Stue / oc alle steder / baade i
+                    Hussene / Gaard oc Stræder / sky Persone<ex>n</ex> oc steden som er befengt / om
+                    din Næste dig icke behoff haffuer / eller du icke forens hanne<ex>m</ex>
+                    beplictig est / eller hand dig icke tilliuder / oc giør li<lb rend="="/>ge som
+                    den der gierne ville dempe voffue Jld. Thi huad er Pestilentze andet / end en
+                    Jld / som icke bren<lb rend="="/>der Halm / Hus eller Straa tag / Træ eller
+                        Tøm<lb rend="="/>mer / men forderffuer Liff oc Krop. Oc tenck saa<lb
+                        rend="="/>ledis / den onde Aand vor Wuen haffuer ført paa oss aff Guds
+                    tilladelse / en suar forgifftig oc døde<lb rend="="/>lig Siugdom. Thi vil ieg
+                    først bede Gud om sin naade / at hand vil miskunde sig offuer oss. Der<lb
+                        rend="="/>næst vil ieg see mig vel faare oc foruare mig / oc giøre Røg mod
+                    den onde forgifftige Luct / Jeg vil giffue oc tage Lægedom oc Vrter til mig / oc
+                    fly ste<lb rend="="/>den oc Personen / huor som mand haffuer mig ic<lb rend="="
+                    />ke behoff / paa det / at ieg icke selff skal forkaste mit Liff / oc maa vel
+                    skee mange andre flere met mig / der ieg kunde vere en stor Aarsage til deris
+                    Død / met min forsømmelse / naar ieg dem saaledis for<lb rend="="/>gaffue. Vil
+                    min Herre oc Gud / her offuer haffue oc kalde mig / da finder hand mig alligeuel
+                    / Da haffuer ieg giort mit der til / saa meget som Gud gaff mig naade oc lycke
+                    til / oc er ieg icke skyldig v<lb rend="="/>di min egen / eller vdi nogen anden
+                    Mands død met min forsømmelse.</p>
+                <p rend="indent">Men der som min Næste haffuer mig alde<lb rend="="/>lis behoff / da
+                    vil ieg ingelunde forsage eller forsø<lb rend="="/>me hannem / oc da vil ieg
+                    huercken sky hans Hus / eller Persone i nogne maade / men ieg vil gaa frit til
+                    hannem / oc hielpe hannem / som førre sagt er.</p>
+                <p rend="indent">See / dette er en retsindig gudfryctig Tro / der huercken vreuels
+                    eller fortrøden er / oc ey heller der met frister Gud.</p>
+                <p rend="indent">Ydermere / Den som haffuer hafft Pestilen<lb rend="="/>tze / oc er
+                    bleffuen noget til pass igien / dog icke alde<lb rend="="/>lis / Men saa at hand
+                    kand noget behielpe sig / hand skal fly oc holde sig fra Folcket / oc icke strax
+                    vil vere i omgengelse met andre / vden saa er at det giøris behoff. Thi lige som
+                    mand bør at see han<lb rend="="/>nem til gode / oc hielpe hannem i sin nød /
+                    naar som hand ligger oc kand icke hielpe sig selff / som førre sagt er: Saa bør
+                        hanne<ex>m</ex> oc at vere saa from dydelig oc æractig aff sig / men hand er
+                    nu hiul<lb rend="="/>pen aff sin nød oc trang / at hand skal icke strax giffue
+                    sig til huer mand i omgengelse / oc besynder<lb rend="="/>lig det som hannem
+                    driffuer ingen nød eller trang til. Paa det at ingen skal met hans vilie komme
+                    vdi lige saadan fare / som hand haffuer veret i / el<lb rend="="/>ler vere andre
+                    aarsage til døden eller Pestilentze / fordi saa som Vismand siger: Huo som
+                    elsker Voffuen eller Faren / hand falder oc fordærffuis gierne i hende. Om nogen
+                    i en Stad vaare saa <pb/> fast i sin Tro / oc sætte sig derfaare i sit Sind / at
+                    hand vilde bliffue tilstede / om hand kunde der met vere hans Næste til gaffn oc
+                    hielp. Oc her lige i<lb rend="="/>mod saa forsiunlig / at det som ingen nød er
+                    til / at hand da hiulpe met alle andre saa meget som mueligt er / at affuerge oc
+                    stille saadan forgifft huor met hand kunde / da skulde det / maa vel skee /
+                    sactes i den Stad / oc icke saa mange dø der / som der giør / naar som ingen vil
+                    tage vare / eller hiel<lb rend="="/>pe at redde.</p>
+                <p rend="indent">Men naar som det gaar saa til / at en part ere saa forfærdede oc
+                    forskreckede / at de strax fly oc skytte intet der om / huor det gaar deris
+                    Næste / oc lade hannem ligge for sig selff vdi den store nød oc trang. En anden
+                    part ere formeget dristige oc køne / oc skytte intet om det / men de lade
+                    aldelis til<lb rend="="/>staa / huercken verie eller redde dem selff eller an<lb
+                        rend="="/>dre / men snarere formerer oc hielper til at Helso<lb rend="="
+                    />ten oc Pestilentze kommer flux nu mere oc mere paa gangs / der haffuer
+                    Dieffuelen gaat at giø<lb rend="="/>re / oc hand kand saalunde lempelig nock
+                    kaste oss paa / baade Død oc huad wlycke hand vil. Thi her met fortørnis paa
+                    begge sider baade Gud oc Mennisken storlige / her met Fristelse / i det at de
+                    friste vor Herre oc Gud / der met mistrøst / tuiffuel oc vantro / i det at de
+                    icke tro vor Herre / oc ey beui<lb rend="="/>se deris Næste den kiærlighed oc
+                    tienstactighed som <pb/> dem burde saa ieg er ingen dem som flyer / vden
+                    Dieffuelen / oc beholder alligeuel saaledis den som bliffuer / oc den som flyer
+                    / saa at ingen vndgaar hannem.</p>
+                <p rend="indent">Her offuer ere nogle end fast slemmere oc ar<lb rend="="/>gere /
+                    saa at naar de ere betende met Pestilentze / da holde de den saa hemelige oc
+                    lønlige met dem selff / oc vdgaa iblant Folckene / oc de haffue saa<lb rend="="
+                    />dan mening. At huor som de kunde der met beten<lb rend="="/>de oc forgiffue
+                    andre / da skulle de selffue bliffue fri oc helbrede igien / oc de gaa faar den
+                    skyld paa Ga<lb rend="="/>den oc vdi Hussene / paa det at de maatte komme
+                    Pestilentzen fra dem oc paa andre / oc de stundem deris egne Børn / eller deris
+                    egne Tieniste Tynd / eller oc andre henge om deris Hals / oc der met vil<lb
+                        rend="="/>le de redde dem selff. Oc de tro icke at Dieffuelen hielper der
+                    til oc driffuer det Spil / at det saaledis skeer oc gaar.</p>
+                <p rend="indent">Jeg haffuer end vel hørt / oc det er mig sagt at nogle ere vel
+                    saadanne fortuifflede Skalcke / at de for det ene gaa iblant Folcket / eller
+                    løbe i Hussene met deris Pestilentze / fordi at det fortry<lb rend="="/>der dem
+                    oc er dem leet / at Pestilentze haffuer der ic<lb rend="="/>ke ocsaa byt / oc
+                    fordi ville de føre den der ind / lige som denne sag vaare saadant it skimpt /
+                    som det er / at naar som nogen vil giøre en anden it skalckhed / oc sætter
+                    Lopper i en andens Skindkiortel eller en <pb/> neffue aff Fluer i en andens
+                    Stue. Jeg veed icke om ieg skal troet / at saadant skal vere sand / er det sand
+                    / da ved ieg icke huorfaare ieg skal holde saa<lb rend="="/>danne / enten faar
+                    Menniske eller faar Dieffle. Men sandelige mand finder stedse forgifftige on<lb
+                        rend="="/>de Menniske. Saa er oc Dieffuelen icke lad til it snedigt
+                    skalckhed at komme aff sted ved saadanne sine Companer oc Staalbrødre Men det
+                    vaare mit raad / at huor mand funde saadanne / at By<lb rend="="/>fogeden eller
+                        Do<ex>m</ex>meren toge dem ved deris Halss / oc antuorde Bødelen dem i
+                    Hender / oc lode han<lb rend="="/>nem handle met dem / lige som met den der met
+                    fri vilie myrder oc ihielslar sin Broder. Thi huad ere saadanne Menniske andet /
+                    end rette lønlige glub<lb rend="="/>mordere vdi en Stad eller By / som løbe oc
+                        om<lb rend="="/>kring / først her ocsaa der / oc lønlige myrde en an<lb
+                        rend="="/>den oc det skal dog hede at ingen haffuer det giort. Lige saa gaa
+                    oc disse her omkring besmitte oc for<lb rend="="/>giffue her it Barn / der en
+                    Quinde / oc ingen skal haffue det giort / oc der til met gaa de oc lee oc gni<lb
+                        rend="="/>se / lige som de haffde giort fuld vel. Det vaare fast bedre at
+                    mand i saadan maade boede iblant vilde Diur oc wskellige Creatur end hos
+                        saadan<lb rend="="/>ne Myrdere. Jeg veed intet at predicke for disse
+                    Mandrabere / thi de acte ingen Predicken. Jeg vil befale Øffrigheden dem / at de
+                    til hielpe at raade dem bod / dog met ingen anden Lægedom / end met
+                    Bodelens.</p>
+
+                <p rend="indent"><pb/>Gud haffuer selff i det gamle Testamente be<lb rend="="/>falet
+                    / at de som Spedalske vaare / skulde vere skil<lb rend="="/>de fra andre
+                    Menniske / oc maatte icke heller bo i Stederne hoss andet Folck / men de skulle
+                    bo vden for Stederne / paa det / at de skulde icke besmitte andre. Huor meget
+                    mere skulle wi ocsaa giøre vdi den farlige Pestilentze / eller vdi andre
+                    forgifftige Siugdommer / de som saa snart oc end snarere fenger oc betender end
+                    nogen Spedalske siugdom giør. Huo som heldst der bliffuer forgiffuen / eller
+                    betent met saadan Siugdom / hand skal strax vel<lb rend="="/>uillige holde sig
+                    fra Folcket / oc strax lade hielpe sig met raad oc Lægedom. Mand skal gierne
+                    hielpe hannem vdi sin nød / som ieg tilforn aldelis nock haffuer giffuet
+                    tilkiende / paa det / at saadan For<lb rend="="/>gifft kand vdi tide nedtryckis
+                    oc fordempis / icke al<lb rend="="/>leniste for en eller tuende Personers skyld
+                    / men den gantske Menighed maatte snart bliffue forgiff<lb rend="="/>uen / om
+                    mand lode hende faa sin fremgang / och saa komme vdi blant andre. Thi saaledis
+                    er det nu met denne Pestilentze som nu her vdi Vittem<lb rend="="/>berrig
+                    regnerer / hun er alleniste kommen aff saa<lb rend="="/>dan besmittelse / oc aff
+                    ingen anden ting. Thi at Lucten / Gud vere loffuet / er end nu sund oc reen /
+                    Men ellers aff forfengeligt Hoffmod oc ret forsømmelse er saadan Pesti<lb
+                        rend="="/>lentze hid kommen:</p>
+                <pb/>
+            </div>
+            <div>
+                <head><reg>x</reg>
+                    <orig>Her endis Doctor Morthen Luthers <lb/> raad om legemlig Lægedom: Oc følger
+                        her <lb/> nu effter hans raad om Siælens oc <lb/> Samuittighedens
+                        Lægedom.</orig></head>
+                <p> FØrst skal mand formane Fol<lb rend="="/>cket at de gaa til Kircken / oc høre
+                        Pre<lb rend="="/>dicken / oc lære aff Guds Ord / huorle<lb rend="="/>dis de
+                    skulle leffue oc dø / Thi skal mand giffue act paa dem som groffue oc
+                    wforstandige ere / saa at de slæt oc aldelis foracte Guds Ord / oc skytte intet
+                    om det / den stund de leffue oc ere kar<lb rend="="/>ske oc helbrede. Lige her
+                    imod skal mand lade dem ligge i deris nød oc Siugdom / oc intet mere skytte om
+                    dem / met mindre end at de diss aluerligere met Hiertens suck oc graad beuise oc
+                    tilkiende giffue deris anger oc bod. Thi at den som icke ander le<lb rend="="
+                    />dis leffuer end som en Hedning eller Hund / oc haffuer det icke obenbarlige
+                    angret oc fortrødt / den ville wi icke heller giffue Sacramentet / oc ey heller
+                    acte hannem for en Christen. Men lige som hand leffde / saa maa hand oc dø / oc
+                    see sig selff fore. Thi wi skulle icke kaste Perler for Suin / oc ey heller
+                    Helligdom for Hunde. Mand finder vel / diss vær / mange groffue forstockede oc
+                        fortred<lb rend="="/>ne Menniske / som huercken / men de leffue eller <pb/>
+                    naar som de dø / sørge eller befinde dem noget til deris Siæl / de gaa saa hen
+                    indtil de bliffue siu<lb rend="="/>ge / oc dø saa hen lige som en Stock / som
+                    huercken Sind eller vid er vdi.</p>
+                <p rend="indent">Det andet er / At huer skal i tide skicke oc be<lb rend="="/>rede
+                    sig til Døden / met Scrifftemaal oc Syn<lb rend="="/>dernis bekiendelse for Gud
+                    / oc gierne anamme Sacramentet huer otende eller fiortende dag en gang /
+                    forsiune oc forlige sig met sin Næste / oc giø<lb rend="="/>re sit Testamente /
+                    paa det / om vor Herre klappe<lb rend="="/>de paa hastelige / oc tiden bleffue
+                    forstacket / før end Sogne Herren eller Cappellanen kunde kom<lb rend="="/>me /
+                    at hand da kunde selff hans Siæl noget be<lb rend="="/>sørge oc faarestaa / oc
+                    icke for den skyld forsømme sig selff / Men kunde alligeuel befale oc giffue sig
+                    Gud i vold. Thi det er icke heller vel mueligt / at huor som stor Død er / oc
+                    der ligge mange siuge / oc det icke heller ere vden tu eller tre Predickere
+                    eller Capellaner / at de kunde komme til alle / oc da først lære oc vnderuise
+                    huer serdelis / i alle de ting som it Christet menniske bør at vide / før hans
+                    Døds tid kommer.</p>
+                <p rend="indent">De som her i ville vere lætsindige oc forsøm<lb rend="="/>melige /
+                    da skal det vere deris egen skyld / oc maa de det selff forsuare oc giøre
+                    Regenskaff derfaare / om mand kand icke huer dag holde en besynderlig Pre<lb
+                        rend="="/>dickestol oc Altere til rede for deris Seng / men de <pb/> haffue
+                    forsmaat det almindelige Altere oc Predi<lb rend="="/>ckestol / til huilcket Gud
+                    haffuer daglige kaldet oc esket dem.</p>
+                <p rend="indent">Til det tredie. Der som mand nu endelig vil haffue oc begere Sogne
+                    Herren / eller nogen Ca<lb rend="="/>pellan til sig / da skal hand kalde dem til
+                    sig met det allerførste oc i tide / før end Siugen tager for<lb rend="="/>meget
+                    offuerhaand / oc den stund hand haffuer sit Sind oc Fornufft til at besinde / oc
+                    kand for<lb rend="="/>staa sig noget. Dette siger ieg for den skyld / thi der
+                    ere mange til som ere saa forsømmelige / at de sige icke til før end Siælen
+                    sider saa gaat som y<lb rend="="/>derst paa Tungen / oc de kunde saa gaat som
+                    intet tale / oc der er føye skel oc vid i dem. Oc da bede de som der hos ere:
+                    Kiære Herre siger oc læser han<lb rend="="/>nem noget gaat faare etc. Nu ville
+                    de at mand skal giøre det / Men den tid den siuge bleff først siug / oc kunde
+                    end da noget skøde / da nyskede hand icke en gang at mand skulde gaa til hannem
+                    / men hand sagde: Ey det haffuer ingen nød / ieg haabis det bliffuer vel bedre.
+                    Huad skal en from Sogne Herre giøre met saadanne Folck / som huercken sørge for
+                    Liff eller Siæl / men de leffue oc dø som it Suin / eller som it andet wskelligt
+                    Diur / oc nu skal mand icke sige hannem Euangelium faare / oc giffue hannem
+                    Sacramentet før end vdi det sidste Øyne blick / Lige som de her til dags haffue
+                    <pb/> giort vdi Paffuedommet / den tid de huercken spur<lb rend="="/>de huad Tro
+                    de haffde til Gud / oc om de viste no<lb rend="="/>get at sige aff Euangelio /
+                    Men de stoppede dem Sacramentet i Halsen / lige som vdi en brødstock.</p>
+                <p rend="indent">Ney icke saa / Men den som icke kand tale / eller giffue Tegen fra
+                    sig (oc serdelis om hand det met vilie forsømmer) Huad hans Tro er om Eu<lb
+                        rend="="/>angelio / Oc huorledis at hand begerer Sacra<lb rend="="/>mentet /
+                    da ville wi ingelunde giffue hannem det. Thi oss er befalet / At wi skulle icke
+                    giffue de van<lb rend="="/>tro oc wgudelige Menniske det hellige Sacra<lb
+                        rend="="/>mente / Men dem som tro / huilcke som kunde be<lb rend="="/>kiende
+                    oc opregne deris Tro. De andre maa fare deris vey / lige som de tro. Wi ere
+                    aarsagede oc w<lb rend="="/>skyldige der vdi / fordi at der er ingen brøst paa
+                    vor Predicken / Lærdom / Formaning / Trøst oc be<lb rend="="/>søgelse.</p>
+                <p rend="indent">Kiære Claus synderlig gode Ven / Eders Velbyrdighed dragis vden
+                    tuil vel til minde / at Anno M. D. xxxvj / vaar her vdi Riget en stor suar
+                    Pestilentze / som tog mange aff dage / oc serdelis vdi Malmø / lige som hun oc
+                    giorde i Kiø<lb rend="="/>benhaffn. Anno M. D. xlvj. Oc disligeste / Anno M. D.
+                    liij. Huilcken Pestilentze ieg acter at vere oss paa kommen / lige som Docter
+                        Marti<lb rend="="/>nus Luther scriffuer om den Vittemberske Pesti<lb
+                        rend="="/>lentze / Thi mand haffuer icke forfaret at Lucten <pb/> haffuer
+                    veret wren siden Suedesiugen vaar / An<lb rend="="/>no M. D. xxix. Huilcken
+                    visseligen vaar en for<lb rend="="/>gifftig ond Luct / som igiennem saa mange
+                    Land fløg / oc mange aff dage tog. Jeg lod i faaresag<lb rend="="/>de / M. D.
+                    xxxvj. Aar / der Pesiilentzen her i Ri<lb rend="="/>get saa regerede vdgaa ved
+                    Prenten en liden Bog om Pestilentzis aarsage / Foruaring oc Lægedom eders
+                    Velbyrdighed til vilie oc tieniste / oc menige Rigens indbyggere til nytte oc
+                    gaffn / thi paa den tid vaar ingen her i Riget som noget haffde screff<lb
+                        rend="="/>uit paa vort danske Tungemaal om saadan han<lb rend="="/>del.
+                    Samme Bog haffuer ieg nu offuerseet / for<lb rend="="/>øget oc forbedret met
+                    nogle besynderlige Capit<lb rend="="/>teller om atskilligt Eder oc Forgifft /
+                    Huor aff mand see kand / huor flittig de gamle vise oc for<lb rend="="/>farne
+                    Læger haffue veret / i det at de met all flidt haffue offuerueyet oc betractet
+                    alle de ting som Menniskens legeme skade eller forderffue kunde / vere sig
+                    Siugdom / Forgifft / Eder eller noget an<lb rend="="/>det / dem haffuer ieg
+                    effterfuldt / oc tilsammen læst de Lægedomme som tiene til dem som met Eder
+                    forgiffne vorde / paa det at de skulle haffue noget / met huilcke de dem hielpe
+                    skulle om de bliffue for<lb rend="="/>giffne.</p>
+                <p rend="indent">Men den Kaanst at forgiffue sin Næste met Eder brugis sielden (Gud
+                    skee loff) her vdi vore Land / Men vdi somme andre Land er den almin<lb rend="="
+                    /> delig / Det Eder som wi bruge mod vor Næste / er Kniff / Suerd oc Spiud / her
+                    met forgiffues man<lb rend="="/>gen / diss vær / oc serdelis naar som wi ere
+                    druckne oc fulde etc.</p>
+                <p rend="indent">Kiære Claus denne effterfølgendis Bog vil ieg atter lade vdgaa paa
+                    Prenten / vnder eders Velbyrdigheds beskyttelse oc beskermelse / oc beder eders
+                    Velbyrdighed ydmygeligen / at i ville tage dette mit Arbeyde til tacke / lige
+                    som i føre giorde met mine andre Bøger / oc mig hoss de auindtz Siuge / som
+                    stedse laste oc skende it fremmet Ar<lb rend="="/>beyde / oc selff kunde intet
+                    gaat giøre beskytte oc beskerme. Her met eders Velbyrdighed met alt i vel ville
+                    den euige Gud befalendis / Sereff<lb rend="="/>uet i Malmø / den v dag Junij som
+                    vaar Pintz afften Anno / M. D. Lvij.</p>
+                <lb/>
+                <!--<figure>
+                    <figDesc>nil</figDesc>
+                </figure>-->
+
+            </div>
+            <div>
+                <head>
+                    <reg>Indholdsfortegnelse</reg>
+                    <orig><pb/>Register eller Taff<lb rend="="/>len paa denne Bog.</orig></head>
+                <list>
+                    <item> Om Pestilentzis Aarsage oc begyndelse. j. Cap:</item>
+                    <item> Pestilentzis luctens Tegen. ii. Cap:</item>
+                    <item> Huorledis mand skal holde sig / naar som Pestilentze re<lb rend="="
+                        />gerer. iii. Cap: </item>
+                    <item> Om Mad oc Drick. iiii. Cap:</item>
+                    <item> Om Søffn. iiii. Cap:</item>
+                    <item> Om Bad. iiii. Cap:</item>
+                    <item> Om Aareladelse. v. Cap:</item>
+                    <item> Lægedom for Pestilentze. vi. Cap:</item>
+                    <item>
+                        <hi rend="antiqua">Bolas armenus</hi>, oc <hi rend="antiqua">Terra
+                            sigillata</hi> huorledis de beredis. <hi rend="right-aligned">vi.
+                            Cap:</hi></item>
+                    <item> Om siuglige Quindfolck oc Børn. vii. Cap:</item>
+                    <item> Huor til mand skal lucte naar som mand vdgaar aff <hi
+                            rend="right-aligned">Huset. viii. Cap:</hi>
+                    </item>
+                    <item> Lægedom faar de Rige. ix. Cap:</item>
+                    <item> Er nogen befengt / Huorledis det kand forfaris. x. <hi
+                            rend="right-aligned">Capit:</hi>
+                    </item>
+                    <item> Farlige onde Tegen. xi. Cap:</item>
+                    <item> Huorledis der skal handlis met den som er befengt. xii. <hi
+                            rend="right-aligned">Capit:</hi>
+                    </item>
+                    <item> Tørster den Siuge. xii. Cap:</item>
+                    <item> Hiertet at styrcke. xii. Cap:</item>
+                    <item> Om Heffuelse eller Pestilentze Byld. xiii. Cap:</item>
+                    <item> Forgiffues nogen met Eder. xiiii. Cap:</item>
+                    <item> Om mand redis at mand haffuer taget forgifft til sig. <hi
+                            rend="right-aligned">xv. Cap:</hi>
+                    </item>
+                    <item> For gifftige Orme oc Diur huorledis de skulle fordriff<lb rend="="/>ues.
+                        xvi. Cap: </item>
+                    <item> Bides nogen aff en Hugorm. xvii. Cap:</item>
+                    <pb/>
+                    <item> Eder Koppes sting. xviii. Cap:</item>
+                    <item> Om Bi oc Brymse. xix. Cap:</item>
+                    <item> Bidis nogen aff en Kat. xx. Cap:</item>
+                    <item> Bidis nogen aff Røtter. xxi. Cap:</item>
+                    <item> Om it fastendis Menniske bider nogen. xxii. Cap:</item>
+                    <item> Forgiøris nogen aff nogen Quinde. xxiii. Cap:</item>
+                    <item> Haffuer nogen ædt forgifftigt raaddet Kiød. xxiiii. Capittel. </item>
+                </list>
+                <p>Ende paa denne Taffle.</p>
+            </div>
+        </front>
+        <body>
+            <div>
+                <head><reg>1. kapitel</reg>
+                    <orig>Pestilentzis Aarsage. <lb/> Det første Capittel. <lb/> Om Pestilentzis
+                        aarsage oc begyndelse.</orig></head>
+                <p> HVad Pestilentze er / oc huorledis den aff Lægerne bescriffues / er offuen faare
+                    sagt: Nu vil ieg tale om Pestilentzis aar<lb rend="="/>sage som ere tuende. Den
+                    første er som alle naturlige Mestere sige / nogle besyn<lb rend="="/>derlige
+                    Stierners indflydelse / huilcke som Vandet / Jorden oc Lucten forgiffue / lige
+                    som al<lb rend="="/>mindelige gierne skeer / naar som Solens oc Maanens
+                    formørckelse skeer / Oc naar som de øffuerste Planeter / Saturnus / Jupiter oc
+                    Mars komme tilsammen vdi Jomfruen eller vdi Tuillinge / oc Herren aff det
+                        opfa<lb rend="="/>rendis Tegn er samme tid vdi Øster / oc Maanen er da
+                    befengt met nogen wlycksalighed.</p>
+                <p rend="indent">Anden aarsage er ond damp oc røg / som met Luc<lb rend="="/>ten
+                    beblandet er / som aff Jorden opfaren er aff Hullet / Graffuer oc Steder / der
+                    som forgifftige Diur ligge i / eller aff den sted huor som døde Menniskes Kroppe
+                        off<lb rend="="/>uer Jorden wiordede eller wbegraffne ligge / den kand oc
+                    vel komme aff den sted som de iordede ligge. Thi skulde mand haffue en
+                    besynderlig sted vden faar huer Kiøbsted vnder den obne oc klare Himmel / huor
+                    som mand skulde iorde døde Menniskers kroppe / Huor som Solen oc Lucten saadan
+                    ond damp (vden Menniskens store skade oc fordærffuelse) kunde fortære. Saadanne
+                    steder haffde Jøderne vdi det gamle Testamente. Ja i Tydskland oc i Franckerige
+                    findis endnu mange saa<lb rend="="/>danne steder. Her om scriffuer Doctor
+                    Morthen Luther i denne Bog / om mand maa fly for døden oc Pestilentze. <pb/> Vor
+                    naadige Herre Kongelige Maiestat / haffuer oc her om ladet vdgaa it almindeligt
+                    bud oc befalning / at for huer Kiøbsted her i Riget skulle vduelgis oc
+                    tilskickis en sted / huor som døde Menniskis kroppe skulle iordis.</p>
+                <p rend="indent">Lucten forgiffuis oc aff det Vand / vdi huilcket dødt Fæ / Hør /
+                    Hamp / oc andre saadanne ting ligge / som giffue ond luct aff dem / Fisken vdi
+                    saadanne Vand forgiffuis / disligeste oc Fæet som dricke aff samme Vand.</p>
+                <p rend="indent">Lucten forgiffuis oc aff fule Rendestene / aff døde Hunde / Katte /
+                    Suin / Høns / Røtter / aff Suinemøg / aff Menniskens møg / som paa Gaderne oc
+                    vdi Stæ<lb rend="="/>derne ligger / Øffrigheden skulle haffue god act oc tilsiun
+                    at saadan wreenhed bleffue icke lagt paa Gaderne oc vdi Stræderne. Det vaar
+                    Jsraels Børn bødet at de skulde giøre it hul vdi Jorden / naar som de vilde
+                    giøre deris Mag / oc siden skulle de skrabe Jord der paa som wi læse. Deutro:
+                    xxiij.</p>
+                <p rend="indent">Hipocrates Læge siger / at Menniskene oc alle Diur opholdis aff try
+                    ting / som ere: Mad / Drick / oc aff Luc<lb rend="="/>ten / men Lucten er det
+                    allsom snariste for alle ting / aff huilcken wi snarist foruandlis / thi den
+                    indragis igien<lb rend="="/>nem Lungen / til Leffuerens brøn / som er: Hiertet /
+                    aff huilcket alle Legemens leffuende Aander deris opholdel<lb rend="="/>se
+                    haffue. Jnddragis den som reen oc wbesmittet er / da vddelis den oc saaledis vdi
+                    de andre Lemmer. Men er den wreen / besmittelig / oc forderffuelig / da vorder
+                        Hier<lb rend="="/>tet oc alle Legemens aander forgiffne / besmittede oc w<lb
+                        rend="="/>rene. Thi samtycke alle Læger endrectelige / at den stør<lb
+                        rend="="/>ste oc ypperste Aarsage aff denne Siugdom / er ond luet / huilcket
+                    som aff ret Nature er Hiertens Wuen oc Fien<lb rend="="/>de. Thi skal mand (om
+                    det mueligt er oc skee kand) fly met det første aff den sted / som ond
+                    forgifftig Pestilen<pb rend="="/>tzis luct er / til den sted / huor som god sund
+                    oc reen Luct er / oc huor som Pestilentze icke haffuer regeret it halfft Aar
+                    tilforn / mand skal ey heller for snart komme tilba<lb rend="="/>ge igien til
+                    den sted aff huilcken mand flyde.</p>
+                <p rend="indent">Pestilentze kommer oc stundem aff Aarsens fire ti<lb rend="="/>der
+                    / som ere: Vinter / Vaar / Sommer oc Høst / naar som de icke haffue deris skick
+                    som dem bør at haffue vdi kuld / verme / vaat oc tiurt.</p>
+            </div>
+            <div>
+                <head><reg>2. kapitel</reg>
+                    <orig>Det andet Capittel. <lb/> Pestilentzis luctens Tegen.</orig></head>
+                <p> AF disse Tegn kand mand forfare oc vide at Lucten offte foruandlis / nu regner
+                    det / oc strax skin Solen igien. Naar som Solen skin oc der gaar for hende en
+                    tyck Toge / huilcken hun icke kand fortære / oc Lucten siunis at ve<lb rend="="
+                    />re fuld aff Støff. Naar som der skeer stor oc mangfaal<lb rend="="/>dig
+                    foruandling vdi Lucten paa en dag. Naar som der vaaxer vduaartis paa Menniskens
+                    Legeme atskillige slags Bylder. Naar som de Fugle som van ere at haff<lb
+                        rend="="/>ue deris bolig oc verelse paa Sletten / forlade deris Æg / Vnger
+                    oc Rede / oc fly op paa Biergene. Oc de som haffue deris værelse oc Reder paa
+                    Biergene / fly ned paa Sletten / lige som Gøgen / Starre de giøre / Spurge
+                    haffue serdelis saadan nature / som lærde Mend om dem scriffue / ieg haffuer oc
+                    vdi sandhed det forfaret aff dem som her paa haffue giffuet act / Oc naar som
+                    Lucten haffuer veret forgifftelig / at de haffue da føye Spurge seet.</p>
+                <p rend="indent">
+                    <pb/>Sammeledis oc / naar mand seer at Orme / Mul<lb rend="="/>uarper / Jordmus
+                    / Hugorme / Øgler oc andre saadan<lb rend="="/>ne Diur / krybe oc løbe aff deris
+                    boliger oc huler / det er it Tegn der til / at de fly Jordens forgifftelse. Naar
+                    som de Diur som deris verelse paa Jorden oc vdi Vandet haffue / krybe aff Vandet
+                    / eller at de ligge døde hoss Vandet. Naar som det er regn Veder / oc at der da
+                    ned regner frøer / det er it vist Pestilentzis tegn. Naar som siuglige
+                    Quindfolck icke lættelige føde deris Foster til Verden / eller om de / eller
+                    Fosteret døer / det er oc vist Pestilentzis tegn. Der ere end mange andre
+                    atskillige tegn til / aff huilcke mand kand forfare at Lucten er for<lb rend="="
+                    />gifftelig / alle her at scriffue vaare forlangt / thi vil ieg lade dem fare /
+                    oc her lære / huorledis mand skal holde oc skicke sig / naar som Pestilentze
+                    regerer / paa det at hun icke snarlige skal faa mact offuer en.</p>
+            </div>
+            <div>
+                <head><reg>3. kapitel</reg>
+                    <orig>Det iij. Capittel. <lb/> Huorledis mand skal holde sig naar som <lb/>
+                        Pestilentze regerer.</orig></head>
+                <p> MAnd skal haffue sin bolig oc verelse vdi it Kammer eller Stue / huilcket som er
+                    vel høygt imellem Gullet oc Lofftet / oc samme bolig skal vere tør oc icke sygt
+                    eller dampac<lb rend="="/>tigt. Thi at der er ingen vere oc skadeligere ting til
+                    / naar som Pestilentze regerer / end at haffue sin bolig vdi sygge oc dampactige
+                    boliger / vdi huilcke Luc<lb rend="="/>ten kand icke foruandlis oc rensis. Oc
+                    Vinduene aff samme Kammer oc bolig / skulle vere imod Norden / oc om det haffde
+                    nogne imod Synden / de skulle tillyckis <pb/> vel tet / oc de Vindue som ere vdi
+                    Norden / paa it aff dem skal giøris it hul / saa stort som en Rude er / paa det
+                    at den onde Damp kand fare vd. J samme Bolig oc Ka<ex>m</ex>mer skal giøris en
+                    god Jld aff Ege træ / om der er no<lb rend="="/>gen Skorsten i det. Mand skal oc
+                    giøre i samme Bolig tre eller fire gange om dagen en god Røg aff vellucten<lb
+                        rend="="/>dis ting / lige som aff disse: Paradise træ / Ambra / Ma<lb
+                        rend="="/>stir / Mayran / Neglicker / Canelebarck / Muskate blom<lb rend="="
+                    />mer / Røgelse / Myrrhe / vild Meyran / Lauerber ska<lb rend="="/>ler / Eneber
+                    / Eneber træ / Saluie / Rosemarin / Lauen<lb rend="="/>del / Egeløff / tør Rude
+                    / maa mand tage aff disse / huilcke mand kand faa oc bekomme / Oc her aff skal
+                    mand leg<lb rend="="/>ge paa Gløer i en Jldsked / eller i it andet Kar / oc her
+                    met røge i samme Bolig / oc dette skal giøris serdelis naar som Regn væder eller
+                    Toge er. Det er oc saare gaat / at mand legger i samme Kammer eller Stue go<lb
+                        rend="="/>de velluctendis grøne eller tørre Vrter / lige som disse ere:
+                    Saluie / Jsop / Lauendel / Spicanardus / oc andre saadanne.</p>
+                <p rend="indent">Om Sommereu naar som stor hede er / da er det gaat at mand strøer
+                    Gulffuet met bladene aff Vintræ / met Rosen / met Pileløff eller met Aakande
+                    blad oc Blomster. Det er oc gaat at samme strødde Blad / Løff oc Blomster
+                    offuerstenckis met Rosen Edicke / eller met Edicke oc Rosen vand tilsammen
+                    blandede. De Fatti<lb rend="="/>ge som icke haffue Rosen vand / oc icke formaa
+                    at kiøbe det / de skulle tage Aakande blomster / eller Rosen / oc siude dem i
+                    Vand / oc lade dem saa kølis / och saa lade Edicke paa dem / oc dem bruge som
+                    lige som offuen faa<lb rend="="/>re sagt er om de andre Vrter.</p>
+                <p rend="indent">Oc naar som nogen dør aff Pestilentze / da skal den Stue eller
+                    Herbergs vegge rensis / oc alt andet hues der inde er skuris oc thois / vere sig
+                    Bord / Bencke / Træ<pb rend="="/>seng / Skamle / thi den onde forgifft kand
+                    giffue sig paa en veg eller vdi en reffue / eller vdi noget som der inde er / oc
+                    der inde side en lang tid / oc naar som da nogen kom<lb rend="="/>mer ind vdi
+                    samme Kammer eller Stue som aff Natu<lb rend="="/>ren tilbøgelig er til
+                    Pestilentze hand befengis strax / her om vil ieg sætte nogle sande Historier.
+                    Salige Lector Anders Liung / som vaar en aff de første her vdi Riget som for lod
+                    Paffuens regimente / oc bleff Sogne Herre vdi Landzkrone i xi. Aar. Oc bleff
+                    siden der fra kaldet til Malmø at vere der Sogne Herre / Huor som hand lærde oc
+                    predickede Guds ord reent oc purt vdi xiiii. Aar oc hand døde vdi samme Stad /
+                    Anno M. D. Lv. den xxiiii. dag Nouembris / Hand sagde for mig oc for man<lb
+                        rend="="/>gen erlig Mand / at den tid hand vaar vdi Landzkrone Closter /
+                    døde en aff Brøderne i samme Closter aff Pe<lb rend="="/>stilentze / it halfft
+                    Aar der effter kom en anden Broder i samme Herberge som den anden vaar vd død /
+                    oc fant der inde hengendis it Bøste flesk som vaar spege / det tog hand der vd
+                    oc aad der aff / oc bleff strax befengt met Pestilentze / oc døde / saaledis
+                    bleffue der siu Brødre dø<lb rend="="/>de / som haffde ædt aff Bøstet / om siger
+                    bleff mand det vaar / at de søm haffde ædt aff samme Bøste bleffue saa befengde
+                    / saa kaste de samme Bøste for en Hund / hand aad det / oc døde der aff.</p>
+                <p rend="indent">Anno Christi M. D. xi. Der vaar en Stad vdi Valland vaar bestoldet
+                    / kom der en stør suar Pestilentze vdi de Tydskes Leyre / oc der døde en Stridz
+                    knecht aff Pestilentze / hand haffde it Sengklæde paa sig / oc sam<lb rend="="
+                    />me Sengklæde kom siden til xxv. Stridz knechte / oc strax de finge samme
+                    Sengklæde paa dem / bleffue de befeng<lb rend="="/>de met Pestilentze oc døde /
+                    oc der de andre Stridz knech<lb rend="="/>te formerckte / at de som haffde hafft
+                    samme Sengklæde vaare bleffne døde / brende de det. De<ex>n</ex>ne Historia
+                        scriff<pb rend="="/>uer Doctor Jodocus Villichius i den Bog som hand haffuer
+                    screffuet om Pestilentze. Oc i samme Bog scriff<lb rend="="/>uer hand oc at der
+                    laa it Hiune eller Pude i it Hus huor som Pestilentze haffde førre regeret i en
+                    vraa vdi fem Aar wtoet oc wrenset aff forsømmelse skyld / omsier kom der en som
+                    rørde ved samme Pude eller Hiunde / oc bleff befengt / oc Pestilentzen regerede
+                    der paa nylige som hun haffde førre giort. Antonius scriffuer Porte. iij. Ti<lb
+                        rend="="/>tulo. xxij. Capit: xij. At Anno Christi M. ccc. xlviij. vaar der i
+                    Florentze Stad en stor suar Pestilentze / oc vdi samme Pestilentze døde it
+                    fattigt Menniske som haffde ligget paa nogle gamle Klude / oc der hand vaar død
+                    / kastedis samme gamle Klude paa Gaden / oc der komme ij. Suin oc rodede (som
+                    deris art oc nature er) iblant samme gamle Klude / oc de bleffue strax befengde
+                    met Pestilentze / oc de løbe bort oc igien indtil de nedfulde oc døde. Thi giøre
+                    de aff Flanderen / Brabant oc Hollant / disligeste de i Schotland ret i det at
+                    de sky saadanne for<lb rend="="/>gifftelige Steder / de lade oc toe oc rense
+                    alle ting som i saadanne Huss ere ved deris Skrubbers / det er / ved nog<lb
+                        rend="="/>le besynderlige Menniske som sig til saadan handel giff<lb
+                        rend="="/>uet haffue / oc derfaare tage deris løn / som indsæt er aff
+                    Øffrigheden faar deris wmage. Her aff kunde wi see at den forgifftige
+                    Pestilentzis onde forgifftelse kand len<lb rend="="/>ge vere i it wreent Huss oc
+                    i wreene Klæder. Her aff kun<lb rend="="/>de wi oc see huor suarlige at somme
+                    rige Menniske syn<lb rend="="/>de i det / at naar som deris tieniste Tiunde
+                    bliffue siuge (om de end icke haffue vden den Kaaldesiuge) da skiu<lb rend="="
+                    />de de dem vd aff deris Hus / oc legge dem heden paa de steder som andre ere
+                    døde / oc da bliffue de forgiffne oc dø / huilcke maa vel skee de haffde kunde
+                    leffuet vdi man<lb rend="="/>ge dage.</p>
+                <p rend="indent">Paa det at den flyende forgifftige Pestilentze skal icke giffue sig
+                    ind vdi nogen reffue eller Væg / skal mand haffue staaendis i den Stue eller
+                    Herberge som de Siu<lb rend="="/>ge vdi ligge / nogle Spande eller Bøtter met
+                    luncket Vand / da giffuer sig den flyende Forgifft ned paa Vandet / oc Vandet
+                    bliffuer til at see lige som der vaa<lb rend="="/>re en Taage paa / eller som
+                    Støff vaare der vdi faldet. Om mand vil giøre at forsagde Vand skal veldelige
+                    drage Ederet til sig / da skal mand kaste en Haand eller tho fulde aff Kaaberrøg
+                    i samme Vand / oc effter Ka<lb rend="="/>rernis storhed. Mand skal oc kaste en
+                    gloendis Tegel<lb rend="="/>sten / eller gloendis Jern / eller Staal i samme
+                    Vand / da drager samme Vand Ederet diss bedre til sig / Dette skal icke giøris
+                    en gang men offte.</p>
+                <p rend="indent">Om mand legger wslucter Kalck vdi den Stue eller Herberge / som den
+                    Siuge i ligger / den drager oc Ederet til sig.</p>
+            </div>
+            <div>
+                <head><reg>4. kapitel</reg>
+                    <orig>Det iiij. Capittel. <lb/> Om Mad oc Dricke.</orig></head>
+                <lb/>
+                <!--<note place="left">Brød.</note>-->
+                <p> DET Brød som mand skal æde den stund Pestilentze regerer / det skal vere aff god
+                    Ru eller Huede / vel suret / saltet oc ba<lb rend="="/>get. Oc huer tredie dag
+                    skal mand haffue (om saa skee kand) ferskt nybaget Brød. Om Vinte<lb rend="="
+                    />ren skal mand bage i Brødet danskt Commen / Anis el<lb rend="="/>ler oc
+                    Coriander / som er beredt / saa at den haffuer leget en nat i Edicke / oc siden
+                    tiurt.</p>
+                <lb/>
+                <!--<note place="left">Kiød.</note>-->
+                <p rend="indent">De Diurs Kiød som hente deris føde hart hos Bierg / huilcke som
+                    icke ere forfede eller for maffre / disse ere serdelis gode at æde aff / naar
+                    som Pestilentzen rege<pb rend="="/>rer / oc de beste aff saadanne Diur ere / Lam
+                    / vnge Kid / Kalffue / aff vilde Diur / vnge Raaer / Harer. Aff Fug<lb rend="="
+                    />le<!--<note place="right">Fugle.</note>--> / Høns som karske oc sunde ere /
+                    fordi at Høns befen<lb rend="="/>gis oc offte met Pestilentze / vnge Hane /
+                    Capuner / A<lb rend="="/>gerhøns / Starer / Solsorter / oc andre saadanne Fugle
+                    / som deris omgengelse oc verelse i Skoffue haffue. Men deris Jnduaaler / Fødder
+                    eller Hierner de skulle icke ædis vdi den tid som Pestilentze regerer. Alle de
+                    Fugle som deris bolig oc Reder haffue paa Vandet / vere sig Gess / Ender / Suane
+                    oc andre saadanne / de forbiudis aff Læ<lb rend="="/>gerne vdi saadan tid.</p>
+                <p rend="indent">Den Fisk som er fangen vdi rindendis Vand /
+                    oc<!--<note place="right">Fisk.</note>--> skæl paa sig haffuer / den maa mand
+                    æde vdi denne tid / lige som ere / Gedder / Brasen / Horck oc andre saadan<lb
+                        rend="="/>ne / disse maa mand siude eller stege / effter som mand selff vil
+                    / Men dog loffue Lægerne de som ere stegte mere end de som ere saadne.</p>
+                <p rend="indent">Huad som beredis aff Melck ronder lættelig /
+                    oc<!--<note place="right">Melck.</note>--> forderffuer snart en ond Maffue / thi
+                    er den icke at bru<lb rend="="/>ge i saadan tid. Men sur Melck / eller Oste
+                    Valde maa mand oc bruge.</p>
+                <p rend="indent">Mand skal ingen gammel raaden Ost æde /
+                    men<!--<note place="right">Ost.</note>--> sidst effter mand haffuer ædt eller
+                    fuldnær giort sit Maaltid / da maa mand vel æde lit aff en god fersker Faare
+                    eller Gede Ost.</p>
+                <p rend="indent">Ag som ere blødsaadne / eller slagne paa
+                    Vand<!--<note place="right">Ag.</note>--> maa mand æde. Men haarde saadne eller
+                    stegte Æg / el<lb rend="="/>ler oc det som baget er aff Æg forbiude Lægerne /
+                    thi de stoppe / oc naar som Pestilentze regerer / skulle de ting brugis som
+                    løsen oc Stolgang giøre.</p>
+                <p rend="indent">Aff Fruct maa mand æde tørre Blommer / Per<lb rend="="
+                    />singer<!--<note place="right">Fruct.</note>--> / Valnødekierner som noget
+                    stund haffue ligget i Edicke / de loffuis serdelis vdi denne tid. Mand maa oc
+                    <pb/> vel iblant met æde Haselnødder / Ribes / mørske Eble / saadne Pærer /
+                    Quæer / Om Vinteren maa mand bru<lb rend="="/>ge / Mandele / Figen / Rosiner /
+                    Cappers oliuer / Pome<lb rend="="/>ranser.</p>
+                <p rend="indent">Jngen fruct skal afftagis aff Træerne Aarle om Morgenen / den stund
+                    end nogen taage er paa dem.</p>
+                <lb/>
+                <!--<note place="left">Kaal.</note>-->
+                <p rend="indent">Kaal giort aff Persilies vrt oc Rødder / aff Bo<lb rend="="/>ras /
+                    Spinas / Bede / Milder / Surer / eller aff Roer maa mand æde. Men Kabusekaal er
+                    wsund vdi saaden tid / mand maa bruge Mandelemelck / oc Erthesaad vdi denne
+                    tid.</p>
+                <lb/>
+                <!--<note place="left">Velling.</note>-->
+                <p rend="indent">Byg velling / Haffre velling / eller velling aff Ri<lb rend="="
+                    />sengryn / met Edicke sur giort / maa mand æde.</p>
+                <lb/>
+                <!--<note place="left">Senip.</note>-->
+                <p rend="indent">Oc men saa er at Leffueren heomis aff Senip / da er det icke gaat
+                    at mand bruger den. Men met disse Vrter maa mand rede oc forbedre sin Mad met /
+                    som ere: Jngefær / Canelebærck / Saffran. Eller mand maa bruge dette
+                    effterfølgendis / huilcket saaledis skal bere<lb rend="="/>dis:</p>
+                <lb/>
+                <!--<note place="left">
+                    <hi rend="antiqua">Cinnamomum. <lb /> Macis. <lb /> Cardamomum.
+            <lb /> Zinzeber. <lb /> Cuminum. <lb /> Rosa rubea. <lb /> Sandalum. <lb />
+          Crocus</hi>.</note>-->
+                <p rend="indent">Mand skal tage Canelebarck it Lodt / Muskate<lb rend="="/>blommer
+                    it halfft Lodt / Cardamomer it Quintin / Jn<lb rend="="/>gefær try quintin /
+                    Spisekommen it lodt / røde tørre Ro<lb rend="="/>sen / Anis / rød oc gul Saffran
+                    / aff huert it halfft quin<lb rend="="/>tin / disse skulle stødis til Puluer /
+                    Oc naar som mand her aff bruge vil / da skal mand lade Vin der paa / oc bru<lb
+                        rend="="/>ge det vdi den sted som mand er van at bruge Senip. Mand maa oc
+                    vel tage her Sucker til saa meget som mand selff vil.</p>
+                <p rend="indent">Om Sommeren naar som stor hede er / da skal mand icke bruge hede
+                    Vrter.</p>
+                <lb/>
+                <!--<note place="left">Edicke.</note>-->
+                <p rend="indent">Det er gaat oc nytteligt / at mand bruger Edicke vdi alle Rætter
+                    som kaagis.</p>
+                <p rend="indent">
+                    <pb/>Lægerne forbiude oc at mand skal icke bruge man<lb rend="="
+                    />ge<!--<note place="right">Mange rætter.</note>--> atskillige Rætter / naar som
+                    Pestilentze regerer. Thi lige som Oxekiød / oc Kalffuekiød / kunde icke vel til
+                    lige siudis i en Gryde saaledis kunde icke heller mange haan<lb rend="="/>de
+                    slags Rætter vel fordøffuis eller fortæris i en Maff<lb rend="="/>ue / Men
+                    raadne oc forderffuis / huor aff atskillige Siugdomme komme / oc serdelis om
+                    mand æder Kiød oc Fisk tilsammen offuer it Maaltid.</p>
+                <p rend="indent">De som ere vane vid Øll / de skulle dricke
+                    gaat<!--<note place="right">Om Drick.</note>--> gammelt Øll / huilcket som icke
+                    er forsterckt / de maa oc henge i deris Øll / Holtzurt / aff somme S. Elline
+                    vrt<!--<note place="right">
+                        <hi rend="antiqua">Enula
+              campana.  Bacce lauri</hi>.</note>-->
+                    kaldet. Eller oc støtte Lauerber.</p>
+                <p rend="indent">De som ere opuande met Vin / de maa dricke god klar huid Vin / som
+                    er blandet met saadet Vand / eller de maa blande dem met Rosen vand / eller met
+                    Endiuie vand om Sommeren / oc om Vinteren met Cardabe<lb rend="="/>nedicte Vand.
+                    All offuerflødig drick skal flyes / om Sommeren skal mand dricke den drick som
+                    køler / oc om Vinteren den som værmer.</p>
+                <p rend="indent">J denne tid skal mand dricke den Vin som er til<lb rend="="/>giort
+                    met Saluie / Eneber / Holtzurt / Bethonie. Men gammelt Folck de skulle gierne
+                    dricke den Vin som er til<lb rend="="/>giort met Malurt.</p>
+                <p rend="indent">De som ere befengde skulle aldelis ingen Vin dri<lb rend="="/>cke /
+                    vden alleniste den / huilcken som de tage til dem met nogen besynderlig Lægedom.
+                    Malmesie / Clarete / Miød / Brendeuin / oc anden saadan heder oc sterck drick de
+                    skulle icke brugis i denne tid / Thi at de hedme Blodet / oc naar som det er
+                    hedt / kand det lættelige be<lb rend="="/>fengis.</p>
+                <p rend="indent">Vandet huor i mand skal kaage Maden / det
+                    skal<!--<note place="right">Vand.</note>--> vere ferskt Kildeuand / som
+                    vdspringer vnder den klare Himmel.</p>
+                <p rend="indent">
+                    <pb/>Effter Middags Maaltid / skal mand icke nedleg<lb rend="="/>ge sig til
+                    søffns / thi aff saadan søffn<!--<note place="left">Søffn.</note>--> vorde alle
+                    Lemmer tunge / mand faar der aff Hoffuetuerck / den Kaaldesiu<lb rend="="/>ge /
+                    oc Madens lyst forgaar. Men vil mand nu soffue da maa mand sidde rette offuer
+                    ende / oc soffue en liden stund. Om Afftenen effter Afftens Maaltid skal mand
+                    icke fortilige nedlegge sig til Søffns / før end to eller tre Timer ere
+                    forløbne. Siu timer er en ret naturlig
+                    <!--<note place="left">Naturlig søffn.</note>-->Søffns / huad som mand der
+                    offuer soffuer det kommer Mennisket til skade.</p>
+                <lb/>
+                <!--<note place="left">Sued.</note>-->
+                <p rend="indent">Skeer det ocsaa / at mand sueder i Søffnen / eller om Natten / da
+                    skal mand vel stryge Sueden aff sig met it rent Linklæde.</p>
+                <lb/>
+                <!--<note place="left">Arbeyde.</note>-->
+                <p rend="indent">Strax effter Maaltidet skal mand icke Arbeyde / thi her aff
+                    forhindris fordøffuelsen i Maffuen / oc føden faar icke hendis rette naturlige
+                    gang i de Aarer som den skulde / Leffueren / Milten / oc Nyrerne forstoppis /
+                    huor aff store oc suare Siugdomme komme. Men de som ere opuand aff Barndom til
+                    arbeyde / de vnder tagis aff denne Regel.</p>
+                <lb/>
+                <!--<note place="left">Bad.</note>-->
+                <p rend="indent">At bade i denne tid forbiudis aff Lægerne / thi aff Suedebad giøris
+                    Hiertet siuge / oc mand bliffuer mact<lb rend="="/>løs / oc tørster effter Badet
+                    / oc bader mand lenge / da be<lb rend="="/>redis vædsken til at ronde. Men huo
+                    som van er til at bade / hand maa bade en liden stund / oc icke i stor hede /
+                    paa det at Suedhullerne skulle icke forstoppis / huor aff meget ont kand komme /
+                    naar som vædsken vdi hannem rønder / som mand vel kand see vdi en Møg hob / io
+                        tet<lb rend="="/>tere hand ligger tilsammen lagt / io mere hand rønder.
+                    <!--<note place="left">
+                        <hi rend="antiqua">Theriaca.  Metridatum. 
+              Electuarium.  Liberantis</hi>.</note>-->Oc
+                    en time før mand gaar ind i Badet / skal mand tage til sig it Quintin aff Galeni
+                    / eller aff <hi rend="antiqua">Andromachi</hi> Therragelse / eller oc <hi
+                        rend="antiqua">Metridatum</hi>, eller aff <hi rend="antiqua">Electuario
+                        Liberantis</hi>, om Vinteren met en Skee fuld aff Vin. Oc <pb/> om Sommeren
+                    met Rosen vand aff Surer / eller met Scabiose vand / eller met Vand aff Hiertens
+                    fryd / eller oc met Vin edicke. Jngen tid skal mand bade met en fuld Maffue /
+                    men naar som Maden er fuldnær fordøff<lb rend="="/>uet eller fortæret. At bade
+                    fastendis er allsombest. Di<lb rend="="/>sligeste skal mand oc vel smørie oc
+                    gnide sig allesteder i Badet met Olie aff Chammilleblommer eller oc
+                    met<!--<note place="right">
+                        <hi rend="antiqua">Oleum Chamomillæ</hi>.</note>-->
+                    Vin / da obnis Suede hullerne / oc den onde vædske giff<lb rend="="/>uer sig vd.
+                    Det er oc saare gaat at mand gnider Fødder<lb rend="="/>ne vnderneden til met
+                    Salt oc Edicke. Oc effter at mand vdgaar aff Badet skal mand sig nedlegge / oc
+                    saa atter suedis.</p>
+                <p rend="indent">Huer dag skal mand vddriffue Legemens offuer<lb rend="="
+                    />flødighed<!--<note place="right">Stolgang.</note>--> oc wreenhed ved
+                    Stolgangen. Mand skal oc icke heller forlenge holde sit Vand. Oc om Stolgan<lb
+                        rend="="/>gen vil icke komme aff sig selff / da skal mand bruge til dem som
+                    ere vande til Clistere sacte Clistere / som
+                    giorde<!--<note place="right">
+                        <hi rend="antiqua">Viola.  Altea.  Branca
+              ursina.  Oleum oliuarum</hi>.</note>-->
+                    ere aff Fioler / aff den Katteost Althea / oc aff Biørne kleffuers vrt / met
+                    Lissebons olie. Eller mand maa bru<lb rend="="/>ge aff de Piller som kaldis <hi
+                        rend="antiqua">Pestilentziales</hi>, oc de findis berede i Apotecken. De
+                    fattige mue bruge / Tappe huil<lb rend="="/>cke de skulle stinge bag ind / som
+                    ere giorde / aff Alun / aff huid Sebe / aff Flesk / aff en Bederod.</p>
+                <p rend="indent">Mand skal oc vel vaacte sig for hastighed / vrede / fortørnelse /
+                    sorg / angest / bedrøffuelse / fryet / forfærdelse etc. Mand skal vere lætsindig
+                    / oc glæde sig met sine Venner / oc bruge Sang / Harpeleg / Trompe / Pibe / oc
+                    andre saadanne Leg oc lystighed.</p>
+                <p rend="indent">Effterdi at naturens leg oc legemlig samquem
+                    /<!--<note place="right">Legemlig sam<lb rend="=" />quem.</note>--> som Mand oc
+                    Hustru bedriffue tilsammen / giøris icke alleniste alle Lemmer skrøbelige / men
+                    ved den gierning vdføris oc Liffsens aand / thi er det raadeligt / at mand
+                    bruger den maadelig.</p>
+            </div>
+            <div>
+                <head><reg>5. kapitel</reg>
+                    <orig>
+                        <pb/>Det v. Capittel. <lb/> Om Aareladelse.</orig></head>
+                <p> DEr som mand det føler / at det stinger alder mest / vere sig bag i Ørnene /
+                    vnder Ar<lb rend="="/>
+                    <!--<note place="left">Hiernen.  Hiertet.  Leffueren.</note>-->mene / eller vdi
+                    Rørerne der vil forgifftelsen sig sætte oc vdbryde. Thi naar som Hier<lb
+                        rend="="/>nen røris oc befengis aff forgifftelsen / driff<lb rend="="/>uer
+                    Hiernen den fra sig bag Ørnene. Hiertet vnder Armene. Leffueren i Rørerne. Thi
+                    skal mand met Aa<lb rend="="/>reladelse saaledis handle som her
+                    effterfølger.</p>
+                <lb/>
+                <!--<note place="left">Halss. <lb /> Øren.</note>-->
+                <p rend="indent">Er mand hoffuen i Halsen / eller bag Ørnene / oc samme Menniske er
+                    offuer xiiij. Aar gammelt / da skal mand lade sla Hoffuet aaren offuen i
+                    Albukrogen / eller imellem Tommelfingeren oc Pegefingeren / it Fin<lb rend="="
+                    />gers bred neden faare paa samme side / som mand be<lb rend="="/>fengdt er / oc
+                    i saadan tid skal mand icke ansee eller acte / om Maanen er i it gaat eller i it
+                    ont Tegen / om hand er ny eller gammel / om det er aarle eller silde.</p>
+                <p rend="indent">Er Heffuelsen vnder Armhullerne / da skal mand lade sla Medianen
+                    eller en gren aff hende / imellem Pe<lb rend="="/>gefingeren oc den lange Finger
+                    paa samme side som Heffuelsen er.</p>
+                <lb/>
+                <!--<note place="left">Siden.</note>-->
+                <p rend="indent">Er Heffuelsen nedre paa siden / eller der hos / da skal mand sla
+                    Leffuer Aaaren / eller Basilicam / eller en gren aff den ved den lille
+                    Finger.</p>
+                <lb/>
+                <!--<note place="left">Røren.</note>-->
+                <p rend="indent">Huilcken som hoffuen er vdi Røren / eller der ne<lb rend="="/>den
+                    faare / hand skal lade den Aare som heder Saphena / oc den er neden ved Anckelen
+                    inden paa foden.</p>
+                <lb/>
+                <!--<note place="left">Vdi begge Rø<lb rend="=" />rer.</note>-->
+                <p rend="indent">Er Heffuelsen i begge røre / da skal mand lade paa den høyre Side /
+                    oc icke paa den venstre / paa det at for<lb rend="="/>gifftelsen fand dragis sra
+                    Hiertet.</p>
+                <p rend="indent">
+                    <pb/>Huilcken som frycter sig at haffue Pestilentze /
+                    oc<!--<note place="right">Jngen tegen.</note>--> haffuer dog ingen visse Tegn /
+                    hand skal lade sla Me<lb rend="="/>dianen / oc er det om Vaaren eller om
+                    Sommeren / da skal hand lade sig paa den høyre Side / oc om Vinteren paa den
+                    venstre. Mand skal acte i Aareladelse / at mand drager det forgifftige Blod fra
+                    Hiertet / oc icke til / der<lb rend="="/>faare huer som hoffuen er vdi fire Røre
+                    / oc lader no<lb rend="="/>gen Aare sla paa Armene / hand kommer vdi stor
+                    fare.</p>
+                <p rend="indent">Haffuer nogen Aareladet sig / før end hand føl<lb rend="="/>de
+                    nogen Heffu else / oc om nogen heffuelse gaffue sig til<lb rend="="/>kiende
+                    effter mand haffuer Aareladt / da skal mand strax lade sla en Aare igien / paa
+                    samme side som Heffuelsen sig tilkiende giffuer.</p>
+                <p rend="indent">Siuglige Quindfolck som ere begaffuede
+                    met<!--<note place="right">Siuglige  Quinder.</note>--> Foster / skulle icke
+                    Aareladis / før end fire eller fem Maa<lb rend="="/>nede effter at de ere
+                    bleffne siuglige / der effter maa de Aareladis / oc giffuis Lægedom lige som
+                    andre der ere befengde. Mand skal sætte dem Kopper i den sted som de skulle
+                    Aareladis / oc hugge hul paa steden. Mand maa oc sætte Kopper paa vnge oc spæde
+                    Børn / om de<!--<note place="right">Spæde Børn.</note>--> ere offuer try eller
+                    fire Aar gamle / men der skulle ingen hul huggis. De som aldelis siuge
+                    skrøbelige oc mactløse ere / de skulle icke Aareladis / Der som saa skeer / Da
+                        vor<lb rend="="
+                    />de<!--<note place="right">Skrøbelig oc  mactløs.
+             Befengt oc  Soffnet.</note>-->
+                    de end siugere oc aldelis mactløse. De som i xxiiii. ti<lb rend="="/>mer haffue
+                    veret befengde / oc der paa soffuet / De skul<lb rend="="/>le icke heller
+                    Aareladis / Thi naturen haffuer da dreff<lb rend="="/>uit forgifftelsen til en
+                    sted / Oc er stadfest / Oc om de Aa<lb rend="="/>reladis / da vdløber det gode
+                    Blod oc det onde forgiffti<lb rend="="/>ge Blod bliffuer inde igien.</p>
+                <p rend="indent">For den som icke maa Aareladis. Den som
+                    icke<!--<note place="right">Lade sætte Kop<lb rend="=" />per.</note>--> maa
+                    Aareladis / hand skal lade sætte sig Kopper / Burde hanne<ex>m</ex> at sla
+                    Hoffuet aaren / da skal hand lade sætte Kop<pb rend="="/>per bag vdi Nacken. For
+                    Median paa Skuldern. For Leffuer aaren paa Lenderne. Paa Knæene for den Aa<lb
+                        rend="="/>re som sider vnder Anckelen.</p>
+            </div>
+            <div>
+                <head><reg>6. kapitel</reg>
+                    <orig>Det vj. Capittel. <lb/> Lægedom for Pestilentze.</orig></head>
+                <p> JEg vil her først sætte oc bescriffue nog<lb rend="="/>le Lægedomme som her i
+                    vore Land vaaxe / Huilcke visselige Mennisken beskerme for Pestilentze / oc
+                    fattige mue bruge dem som icke formaa oc kiøbe fremmede vdlendiske dyrebare
+                    Lægedomme.</p>
+                <lb/>
+                <!--<note place="left">
+                    <hi rend="antiqua">Angelica</hi>.</note>-->
+                <p rend="indent">Angelice rod i Edicke lagt oc it stycke aff den vdi Munden baaret /
+                    disligeste oc it stycke lagt i en Lin klud oc der til luctet / beskermer
+                    Mennisken for Pestilentze. Eller mand maa støde den til Puluer / oc strø lit aff
+                        sam<lb rend="="/>me Puluer paa it stycke Brød som bløt er vdi Edicke / oc
+                    det saa æde.</p>
+                <p rend="indent">Er nogen befengt met Pestilentzis Kaaldesiuge / eller met Suedesot
+                    / eller Rosen siuge. Hand skal tage it halfft quintin aff Angelica rod smaat
+                    støt til Puluer / oc it quintin ret god Therragelse. Men haffuer mand icke
+                    Therragelsen / da skal mand tage it halfft quintin aff Angelice rod / oc try
+                    lodt vand som brent er aff An<lb rend="="/>gelice rod. Haffuer mand icke
+                    Angelice vand / da maa mand dricke det met Vin. Oc legge sig saa ned til at
+                    suedis / da beskermis hand aff faaresagde siuger. Denne Lægedom er viss oc offte
+                    forsøgt.</p>
+                <lb/>
+                <!--<note place="left">
+                    <hi rend="antiqua">Aaron</hi>.</note>-->
+                <p rend="indent">Mand maa tage Aarens Vrt / huilcken aff sam<lb rend="="/>me Muncke
+                    fands vrt kaldis / Rod eller frø / Huilcket som mand aff denne vrt bekomme kand
+                    / er hun fersk oc <pb/> grøn / da skal hun vel stødis / Oc Osen vdkrystis vel
+                    met Edicke / saa skal mand tage aff samme vdkryste Oess iiij. lodt / Ther agelse
+                    it quintin / Disse skulle blendis vel til<lb rend="="/>sammen / oc giøris
+                    luncket / oc saa drickis / oc der effter skal mand sig nedlegge oc der paa
+                    suedis / da vddriffuis forgifftelsen. Denne Lægedom er viss oc offte forsøgt.
+                    Haffuer mand icke Theragelsen / da maa mand allige<lb rend="="/>uel dricke Osen
+                    met Edicken / da vddriffuis forgifftelsen neden vd ved Stolgangen.</p>
+                <p rend="indent">Bethonie støt til Puluer met Sucker blandet
+                    oc<!--<note place="right">
+                        <hi rend="antiqua">Betonica</hi>.</note>-->
+                    ædt / er god for Forgifftelse / oc for Hoffuetuerck / som mand almindelig gierne
+                    faar / naar som Pestilentze re<lb rend="="/>gerer. Eller mand maa dricke om
+                    Morgenen fastendis it halfft quintin met en drick Vin / eller met Vand som brent
+                    er aff Bithonie.</p>
+                <p rend="indent">Jt quintin Entzian met lit Jngefær oc tør
+                    Rude<!--<note place="right">
+                        <hi rend="antiqua">Gentiana.  Zinzeber.  Ruta</hi>.</note>-->
+                    til Puluer støtte / oc Aarle om Morgenen met en drick Vin drucket / beskermer
+                    Mennisken for all Eder oc Pe<lb rend="="/>stilentze.</p>
+                <p rend="indent">Entzian skaaren i stycker / oc en nat lagt i Edicke / oc om
+                    Morgenen it stycke til sig taget / oc it stycke holdet for Munden / beskermer
+                    Mennisken for Pestilentze oc for Pestilentzis onde luct.</p>
+                <p rend="indent">Jt quintin Loestilcke frø oc it quintin
+                    Theragelse<!--<note place="right">
+                        <hi rend="antiqua">Semen libystici</hi>.</note>-->
+                    tilsammen blandede / oc det til sig taget met iij. eller iiij. Skeder fulde aff
+                    Vin oc Edicke tilsammen blandede / oc førre lit luncket giort oc sig nedlagt oc
+                    der paa suedet / vd<lb rend="="/>driffuer veldelig Pestilentzen.</p>
+                <p rend="indent">Tu eller try Lauerber Aarle om Morgenen fasten<lb rend="="
+                    />dis<!--<note place="right">
+                        <hi rend="antiqua">Bacce lauri</hi>.</note>-->
+                    ædne de ere gode / thi de styrcke Hiertet / disligeste den kaalde Maffue / oc
+                    Hiernen beskermer Mennisken for den onde Pestilentzis luct.</p>
+                <lb/>
+                <!--<note place="left">
+                    <hi rend="antiqua">Astrantinum</hi>.</note>-->
+                <p rend="indent">Jt stycke eller tu aff Mester vrt om Morgenen fastendis ædt met
+                    Salt / styrcker den kaalde slimactige Maffue / oc beskermer Mennisken for
+                    Pestilentzis on<lb rend="="/>de luct.</p>
+                <p rend="indent">Er nogen befengt met Pestilentze / hand skal tage it quintin eller
+                    lit mere aff Mester vrt som er støt til Pul<lb rend="="/>uer / oc det skal mand
+                    dricke met en drick varm Vin / el<lb rend="="/>ler met it aff de brende Vand /
+                    om huilcke her offuen<lb rend="="/>faare sagt er. Haffuer mand Theragelse / da
+                    skal den tagis der til.</p>
+                <lb/>
+                <!--<note place="left">
+                    <hi rend="antiqua">Aristologia. <lb /> Myrrha. <lb />
+            Castoreum</hi>.</note>-->
+                <p rend="indent">Eller mand maa tage Hulurt / rød Myrrhe / Bi<lb rend="="/>bergel /
+                    aff huert it quintin / oc støde dem til Puluer / disse skulle siudis vdi huid
+                    Vin / oc vdi helfften saa me<lb rend="="/>get Edicke som Vinen er / Her skal
+                    mand dricke en god drick den stund det end varmt er / oc sig nedlegge oc der paa
+                    suedis.</p>
+                <lb/>
+                <!--<note place="left">
+                    <hi rend="antiqua">Scabiosa</hi>.</note>-->
+                <p rend="indent">Er nogen befengt met Pestilentze / hand skal tage Scabiosam den
+                    stund hun fersk oc grøn er met rod oc alt oc støde den met Edicke / oc kryste
+                    den igiennem en Klud / oc tage her til it quintin Theragelse / oc dricke denne
+                        Læ<lb rend="="/>gedom. Der effter skal mand dricke i ni dage Vand som brent
+                    er aff denne Vrt / eller oc Vand huor i denne Vrt er saaden. Men om mand kand
+                    icke faa denne Vrt den stund hun er fersk oc grøn / da maa mand støde den tør
+                    til Puluer / oc dricke saa it halfft lodt aff hende met Vin oc Edicke som denne
+                    Vrt er saaden i / oc denne Lægedom oc Drick er serdelis god til den som
+                    Pestilentze haffuer taget met hede.</p>
+                <lb/>
+                <!--<note place="left">
+                    <hi rend="antiqua">Ruta. <lb /> Grana Iuniperi. <lb /> Enula
+            campana</hi>.</note>-->
+                <p rend="indent">Eller mand maa tage tør Rude / Eneber / Holtzurt Valnøde kierner
+                    ren skalede / lige meget aff huert / disse skulle stødis tilsammen met Rosen
+                    Edicke / mand maa oc vel tage her til noget Rosen Honnig / her aff skal mand
+                    tage om Morgenen en Ske fuld / oc da beskermis mand den dag for Pestilentze.</p>
+                <p rend="indent">
+                    <pb/>Men er nogen befengt met Pestilentze / da skal mand tage Osen aff Rude tu
+                    lodt / oc it quintin Theragelse / disse skulle blandis tilsammen / oc luncket
+                    giøris / oc siden drickis / der effter skal mand sig nedlegge oc der paa sue<lb
+                        rend="="/>dis. Oc aff denne Lægedom skal mand giffue den Siu<lb rend="="/>ge
+                    tre gange inden fire tiue timer. Met forsereffne Læ<lb rend="="/>gedom ere mange
+                    hiulpne oc ere fride for Pestilentze. Om mand siuder Rude oc Rude frø vdi Vin /
+                    oc
+                    dricker<!--<note place="right">
+                        <hi rend="antiqua">Ruta.  Seminis Ruta</hi>.</note>-->
+                    den / da haffuer hand den samme dygd som forscreffne Lægedom haffuer.</p>
+                <p rend="indent">Sex eller siu blad aff Surer / rene toffne / den
+                    stund<!--<note place="right">
+                        <hi rend="antiqua">Acetosa</hi>.</note>-->
+                    de ferske oc grøne ere / oc ædt / er en god Lægedom for Pe<lb rend="="
+                    />stilentze. Men om mand kand icke faa den grøne oc fer<lb rend="="/>ske / da
+                    maa mand tage de som tiurde ere / oc dem sønder gnide eller støde / oc tage der
+                    tillige meget Sucker som Surerne ere / oc disse tilsammen blende / saa bliffuer
+                    det it kaasteligt Puluer til at bruge for Pestilentzis onde for<lb rend="="
+                    />gifftige luct. De som ere komne til deris laue Alder / de skulle tage her aff
+                    it quintin / oc vnge Børn noget min<lb rend="="/>dre. Denne Lægedom maa huer
+                    mand bruge / vere sig Børn / eller siuglige Quindfolck.</p>
+                <p rend="indent">Vand aff Surer brent / oc det drucket /
+                    beskermer<!--<note place="right">
+                        <hi rend="antiqua">Aqua acetosa</hi>.</note>-->
+                    oc for Pestilentze.</p>
+                <p rend="indent">Er nogen befengt met Pestilentze / hand skal tage frøet aff Surer
+                    it quintin støt til Puluer / oc it quintin Theragelse / disse skulle blandis
+                    tilsammen / denne Læge<lb rend="="/>dom skal mand dricke met Sure vand / eller
+                    met Sca<lb rend="="/>biose vand / oc saa sig nedlegge oc der paa suedis.</p>
+                <p rend="indent">Osen aff Tormentill a drucket met Vin / vddriff<lb rend="="
+                    />uer<!--<note place="right">
+                        <hi rend="antiqua">Tormentilla</hi>.</note>-->
+                    all Eder oc Forgifft aff Mennisken / vere sig kom<lb rend="="/>men aff
+                    Pestilentze eller aff andet.</p>
+                <p rend="indent">Er nogen befengt met Pestilentze / eller met nogen anden
+                    forgifftelig Siuge / oc om hand icke kand faa oc <pb/> bekomme Osen aff
+                    Tormentilla / da skal mand tage it quntin Tormentille rod støt til Puluer / oc
+                    den dricke met en Drick luncket Vin / Mand maa oc tage her til it quintin
+                    Theragelse / om mand kand den faa oc be<lb rend="="/>komme.</p>
+                <p rend="indent">Tormentille Vrt oc Rod vdi Vin saaden oc dru<lb rend="="/>cket giør
+                    det samme. Oc om mand tager it quintin Theragelse her til / oc dricker den met
+                    forsagde Vin / oc legger sig ned / oc der paa suedis / da vddriffuis all Eder oc
+                    Forgifft / Denne samme Lægedom er offte forsøgt.</p>
+                <lb/>
+                <!--<note place="left">
+                    <hi rend="antiqua">Absinthium</hi>.</note>-->
+                <p rend="indent">Grøn oc fersk Malurt om Morgenen fastendis ædt / eller oc Vand aff
+                    hende brent / oc drucket / besker<lb rend="="/>mer Mennisken for Pestilentzis
+                    onde luct.</p>
+                <p rend="indent">Malurte Knopper eller Blomster / besprengde met Salt oc nedslagede
+                    / beskerme oc Mennisken for Pestilentze.</p>
+                <lb/>
+                <!--<note place="left">
+                    <hi rend="antiqua">Grana Iuniperi</hi>.</note>-->
+                <p rend="indent">Femten Eneber aarle om morgenen fastendis aad<lb rend="="/>ne / oc
+                    der til Kiernen aff en Valnød / som haffuer leg<lb rend="="/>get i Edicke / om
+                    mand den haffuer / loffuis saare for Pestilentzis onde luct.</p>
+                <lb/>
+                <!--<note place="left">
+                    <hi rend="antiqua">Cepa</hi>.</note>-->
+                <p rend="indent">Mand maa tage en Løg / oc vdhule hannem / saa at mand kand lade i
+                    hannem it quintin god gammel Theragelse / eller saa meget som en Haselnød kand
+                        ve<lb rend="="/>re / saa skal Hullet tilstoppis igien met noget aff det som
+                    vdhulet er / oc suøbis i vaade Blaar / oc sættis i hed Aske / eller Jldmørre /
+                    oc Hullet skal vendis op at / paa det at Theragelsen skal icke løbe vd / Oc naar
+                    som Løgen steg<lb rend="="/>ter oc blød er / skal hand vel stødis i en Mortere /
+                    oc der paa ladis fire eller fem Skede fulde aff god Vin Edicke føye varmt giort
+                    / Disse skulle vel gnidis tilsammen met Støderen / oc siden krystis igiennem en
+                    lin Klud / da bliffuer det som er vdkryst it sort Vand / det skal vermis <pb/>
+                    igien / ocsaa drickis aff den som er befengt / oc skal ned<lb rend="="/>leggis
+                    oc suedis / da frelsis hand næst Guds hielp aff denne Sot oc breck. Men kand
+                    mand haffue Vand aff Surer / eller aff Scabiosa / da er det bedre end
+                    Edicken.</p>
+                <p rend="indent">Egeløff som vaaxne ere paa Sommer Tenen / eller Quist tiurde / oc
+                    støtte til puluer / met Sucker blan<lb rend="="/>dede / oc ædne / de ere saare
+                    gode for Pestilentze / de kunde icke nock loffuis / fordi at de driffue den onde
+                    vædske aff Legemet.</p>
+                <p rend="indent">Mand maa tørre Rudeblad oc tage it lodt aff dem
+                    /<!--<note place="right">
+                        <hi rend="antiqua">Folia Rutæ.  Grana Iuniperi. 
+              Nux</hi>.</note>-->
+                    Eneber oc Figen aff huert it halt lodt / Valnøde kierner rene skalede tu lodt /
+                    god Edicke fire lodt / Disse skulle stø<lb rend="="/>dis tilsammen / oc her aff
+                    skal mand tage noget til sig om Morgenen / før end mand gaar i Lucten. Somme
+                    tage lige meget aff huert / oc handle der met som sagt er. Andre kryste denne
+                    Lægedom igiennem en Klud / oc lade det vdi it Glas / oc sætte det vdi nogle dage
+                    mod Solen / oc naar som de ville tage her aff noget til dem / da tage de aarle
+                    om Morgenen en Skee fuld.</p>
+                <p rend="indent">Jt stycke aff en Suomp vaadgiort vdi forscreff<lb rend="="/>ne
+                    Lægedom / oc den holdet for Næsen / oc til den luctet / beskermer Mennisken for
+                    Pestilentzis onde luct.</p>
+                <p rend="indent">Mand maa tage Rude / Knopperne aff Malurt
+                    /<!--<note place="right">
+                        <hi rend="antiqua">Ruta.  Absinthium.  Saluia.  Eruca.  Nuclei
+              Iuglandis</hi>.</note>-->
+                    Saluie / Figen / huid Senip / oc Valnøder kierner / lige meget aff huert / Disse
+                    skulle stødis tilsammen met god Rosen Edicke / eller met anden god sterck Edicke
+                    / saa at det vorder som it <hi rend="antiqua">Electuarium</hi>, Her aff skal
+                    mand ta<lb rend="="/>ge til sig aarle om Morgenen saa meget som en føye
+                    Valnød.</p>
+                <p rend="indent">Eller mand maa støde tiue Rudeblad oc tu Val<lb rend="="/>nøder
+                    kierner tilsammen met lit Salt / oc æde her aff.</p>
+                <p rend="indent">
+                    <pb/>Tag to Valnøder tu Figen til it gammelt Men<lb rend="="/>niske / helfften
+                    saa meget til it vngt Menniske met Salt ædne / loffuis oc saare.</p>
+                <lb/>
+                <!--<note place="left">
+                    <hi rend="antiqua">Bolas Armenus</hi>.</note>-->
+                <p rend="indent">Eller mand maa tage <hi rend="antiqua">Boli Armeni</hi>, som beredt
+                    erit quintin / Rosen vand fire lodt / Vin edicke tu lodt / disse skulle røris
+                    tilsammen / oc giøris lit varmt / oc skal giffuis den som er befengt / om hand
+                    kaster det op / Da skal hand skølle sin Mund / oc tage det anden gang til sig
+                    lige som forscreffuet staar / disligeste tredie gang / Dette skal brugis indtil
+                    den Siuge beholder det hos sig / beholder hand det hos sig / da er Hiertet icke
+                        for<lb rend="="/>giffuet.</p>
+                <p>
+                    <hi rend="antiqua">Bolas Armenus</hi>.</p>
+                <p rend="indent">
+                    <hi rend="antiqua">Bolas Armenus</hi>, oc <hi rend="antiqua">Terra
+                        sigillata</hi>, brugis offte i Lægedommen / Thi vil ieg her lære / huorledis
+                    de skulle rettelige beredis / før end de skulle brugis vdi Lægedom. Mand skal
+                    tage it aff disse / huilcket aff dem som mand vil bruge oc støde det til Puluer
+                    / oc toc det saa vdi den be<lb rend="="/>ste Vin som mand kand faa / haffuer
+                    mand icke Vin / da maa mand tage Rosen vand / Sure vand / Malur<lb rend="="/>te
+                    vand / eller huilcket som mand aff disse kand faa / oc naar som det saa thoet er
+                    / oc er siuncket ned til Bonden vdi igien / saa skal mand lade Vinen eller
+                    Vandet løbe der fra / oc lade det siden tørris. Saaledis skal mand her met
+                    handle tre eller fire gange / siden skal det stødis smaat igien oc beuaris vel.
+                    Huo som vil bruge her aff allene vden nogle andre Vrter / oc om hand er aff hed
+                    nature / da skal hand tage it quintin her aff met god E<lb rend="="/>dicke /
+                    Rosen vand / eller Sure vand / oc met lit Vin. Er hand aff kaald nature / da
+                    skal hand tage det met Vin allene. Saa tidt oc offte som mand vil bruge <hi
+                        rend="antiqua">Bo<pb rend="="/>las</hi>, eller <hi rend="antiqua">Terram
+                        sigillatam</hi>, vdi Lægedom / da skulle de vere tilgiorde oc beredde som
+                    sagt er.</p>
+                <p rend="indent">Mand maa tage Angelice rod tu lodt / Tormen<lb rend="="
+                    />tillam<!--<note place="right">
+                        <hi rend="antiqua">Angelica.  Tormentilla.  Enula.
+               Diptamus.  Bolas armenus</hi>.</note>-->
+                    / Holtzurt oc Diptan / aff huert it lodt / <hi rend="antiqua">Bolas Ar<lb
+                            rend="="/>menus</hi>, try lodt / disse skulle stødis til Puluer oc
+                    blandis met lige megen god Theragelse / om mand kand den be<lb rend="="/>komme /
+                    her aff skal mand giffue it quintin lige som før<lb rend="="/>te om andre
+                    Lægedomme sagt er.</p>
+            </div>
+            <div>
+                <head><reg>7. kapitel</reg>
+                    <orig>Det vij. Capittel. <lb/> Om siuglige Quindfolck oc Børn.</orig></head>
+                <p> NAar som Pestilentze regerer / da regerer hun offuer de siuglige Quindfolck som
+                    ere begaffuede aff Gud met Foster / Oc offuer vnge oc spæde Børn / Huilcke som
+                    icke kun<lb rend="="/>de bruge nogen sterck Lægedom vden deris skade oc
+                    forderffuelse / Paa det de skulle icke forladis / vil ieg her sætte nogle
+                    Lægedomme som de bruge mue vden all skade oc fare.</p>
+                <p rend="indent">Er nogen Quindis persone siuglig met Foster / da maa hun æde it
+                    stycke stegt Brød som haffuer ligget vdi Vin edicke / mand maa oc giffue vnge
+                    Børn der aff fastendis.</p>
+                <p rend="indent">Eller hun maa æde Valnøde kierner som haffue ligget vdi Vin
+                    edicke.</p>
+                <p rend="indent">Hun maa æde fastendis Queseurte rod / eller Pim<lb rend="="
+                    />pinelle
+                    Rod<!--<note place="right">
+                        <hi rend="antiqua">Radix Pimpinelle</hi>.</note>-->
+                    som er indsyltet.</p>
+                <p rend="indent">Om Sommeren maa hun bruge Scabiose blad
+                    /<!--<note place="right">
+                        <hi rend="antiqua">Folia Scabiose.  Acetose.  Rutæ.  Carica. 
+              Tormentilla.  Cortex maliar antij</hi>.</note>-->
+                    Surer oc Rude / met nogen Vin edicke.</p>
+                <p rend="indent">Om Vinteren maa mand tage Figen / Tor<lb rend="="/>mentilla /
+                    Pomerantzier skaler / Valnøde kierner / oc <pb/> Rude / Disse skulle stødis
+                    tilsammen / oc giøris her aff it <hi rend="antiqua">Electuarium</hi> met Honnig
+                    oc Salt / her aff skal hun ta<lb rend="="/>ge til sig om Morgenen saa meget som
+                    en god stor Ha<lb rend="="/>selnød kand vere.</p>
+                <lb/>
+                <!--<note place="left">
+                    <hi rend="antiqua">Suecinum</hi>.</note>-->
+                <p rend="indent">Vnge oc spæde diendis Børn / dem maa mand giff<lb rend="="/>ue
+                    tredie delen aff it quintin / huid Raff eller huid Bren<lb rend="="/>desten /
+                    met vand aff Surer / eller met Melck.</p>
+                <lb/>
+                <!--<note place="left">
+                    <hi rend="antiqua">Cortex Mali. <lb /> Arantij</hi>.</note>-->
+                <p rend="indent">Eller mand maa giffue dem tredie delen aff it quin<lb rend="="/>tin
+                    Pomerantze skaler.</p>
+                <p rend="indent">Eller mand maa giffue det Bolas som er beret som offuenfaare lært
+                    er.</p>
+                <lb/>
+                <!--<note place="left">
+                    <hi rend="antiqua">Cortex mali. <lb /> Arantij. <lb /> Cornu
+            Cerui. <lb /> Succinum. <lb /> Monocerotis</hi>.</note>-->
+                <p rend="indent">Eller mand maa tage / Skalerne aff Pomerantzi<lb rend="="/>ers Eble
+                    / brent Hiorte horn / Huid Raff eller Brende<lb rend="="/>sten / aff huert halff
+                    andet quintin / Enhørnig it halfft lodt / disse skulle stødis til Puluer / her
+                    aff skal mand giff<lb rend="="/>ue Barnet tredie delen aff it quintin / oc det
+                    saa nedlegge at det kand suedis.</p>
+                <lb/>
+                <!--<note place="left">
+                    <hi rend="antiqua">Aqua Fumi. <lb /> Terre</hi>.</note>-->
+                <p rend="indent">Mand maa oc giffue de Børn som ere yngre end siu Aar / Jordrøgis
+                    vrtis vand / eller to eller tre Skeder fulde aff Angelice vand / oc om de haffue
+                    stor Hede / da maa mand lade vdi samme Vand saa meget Campher som it Byg korn
+                    veyer. Mand maa oc vel giffue dem Rosen vand / Sure vand / Jorbere vand / Men
+                    ingen Vin skal mand giffue dem. Børn som ere tolff Aar / dem maa mand giffue it
+                    halfft quintin Theragelse met Jordrøgis vrtis vand.</p>
+            </div>
+            <div>
+                <head><reg>8. kapitel</reg>
+                    <orig>Det viij. Capittel. <lb/> Huor til mand skal lucte naar som mand <lb/>
+                        vdgaar aff Huset.</orig></head>
+                <p>
+                    <pb/> MAnd skal icke vdgaa om Morgenen / før end mand haffuer taget nogen aff
+                        for<lb rend="="/>screffne Lægedomme til sig / Oc naar som mand vil vdgaa /
+                    da skal mand bruge en aff disse effterfølgendis Lægedomme.</p>
+                <p rend="indent">Mand maa holde vdi Munden it stycke
+                    Loestilcke<!--<note place="right">
+                        <hi rend="antiqua">Radix Libistici</hi>.</note>-->
+                    rod / disligiste och saa lucte til den.</p>
+                <p rend="indent">Eller mand maa bruge it stycke aff Valeriane rod
+                    /<!--<note place="right">
+                        <hi rend="antiqua">Radix Valeriauæ</hi>.</note>-->
+                    lige som her faare sagt er.</p>
+                <p rend="indent">Eller mand man holde vdi Munden it stycke Se<lb rend="="
+                    />defer<!--<note place="right">
+                        <hi rend="antiqua">Zeduaria</hi>.</note>-->
+                    / Mand skal oc om Morgenen æde aff den fa<lb rend="="/>stendis.</p>
+                <p rend="indent">Eller mand maa tage Rude blad / oc Knopperne aff Malurte / lige
+                    meget aff huert / lit Meyran / Sede<lb rend="="/>fer it halt quintin / Angelice
+                    rod / it quintin. Alle disse skulle skæris smaa / oc bindis vdi en ren lin Klud
+                    / oc den skal leggis vdi blød / vdi god sterck Edicke / oc siden skal den leggis
+                    vdi en liden Bøsse som er suaret aff Eneber træ / den skal bæris vdi Haanden /
+                    oc der til luctis.</p>
+                <p rend="indent">At mand lucter om Vinteren til Bibergel / loffuis saare.</p>
+                <p rend="indent">De andre Lægedomme / til huilcke mand skal lucte / de ere
+                    offuenfaare bescreffne vdi atskillige steder.</p>
+                <p rend="indent">Vdi Apotecken findis til kiøbs nogle besynderli<lb rend="="/>ge
+                    Eble / giorde aff atskillige velluctendis Vrter oc Gummer / De maa de Rige kiøbe
+                    / oc lucte til dem / om de icke fornøyis met forscreffne.</p>
+            </div>
+            <div>
+                <head><reg>9. kapitel</reg>
+                    <orig>Det ix. Capittel. <lb/> Lægedom for de Rige.</orig></head>
+                <p>
+                    <pb/> HER vil ieg sætte oc bescriffue nogle Læ<lb rend="="/>gedomme for de Rige
+                    oc formuendis / som icke ville lade dem nøye met forscreffne sim<lb rend="="
+                    />ple oc enfaaldige Lægedomme / som her vdi vore Land vaaxe / huilcke huer mand
+                    met en ringe ting oc bekaastning kand bekomme. Disse Læge<lb rend="="/>domme maa
+                    mand bruge baade til foruaring / at mand skal icke bliffue befengt / disligeste
+                    oc om nogen befengis at bortdriffue Forgifft met. Disse maa de selff giøre /
+                    eller oc lade dem berede vdi Apotecken saaledis som her nu effterfølger.</p>
+                <p rend="indent">Om Morgenen før end mand gaar vd vdi Luc<lb rend="="/>ten / skal
+                    mand tage til sig to eller tre Pestilentze Piller. Thi de purgere sactelig oc
+                    langsommelig / styrcke alle Lemmer / beskerme for Forgifft / oc lade icke
+                    vædsken raadne / oc disse Piller giøris saaledis.</p>
+                <lb/>
+                <!--<note place="left">
+                    <hi rend="antiqua">Aloes citrini. <lb /> Myrrha. <lb />
+            Crocus</hi>.</note>-->
+                <p rend="indent">Mand skal tage Aloes Citrini it halfft lodt / Myr<lb rend="="/>rhe
+                    / Saffran / aff huert it quintin / disse skulle stødis oc her aff skal giøris
+                    Piller / met den beste Vin som mand kand faa. Somme tage her til lige saa meget
+                    Bolas / som de haffue Aloes / oc noget Mastix.</p>
+                <lb/>
+                <!--<note place="left">
+                    <hi rend="antiqua">Aloes. <lb /> Gummi Armoniaci. <lb />
+            Crocus</hi>.</note>-->
+                <p rend="indent">Eller mand maa giøre samme Piller saaledis. Mand skal tage Aloes it
+                    halfft lodt / <hi rend="antiqua">Gummi Armoni<lb rend="="/>aci</hi>, oc it
+                    halfft lodt / Saffran it quintin / disse skulle stø<lb rend="="/>dis til smaat
+                    Puluer / oc her aff giøris en god Dey met god Vin / oc saa her aff giøris Piller
+                    / huer saa stor som en føye Ert / her aff skal mand tage til sig it Quin<lb
+                        rend="="/>tin.</p>
+                <lb/>
+                <!--<note place="left">
+                    <hi rend="antiqua">Aloes. <lb /> Myrrha. <lb /> Crocus. <lb />
+            Mastix</hi>.</note>-->
+                <p rend="indent">Andre de giøre disse Piller saaledis. De tage A<lb rend="="/>loes
+                    støt til Puluer try Quintin / Myrrhe / Saffran / Mastir / aff huert it quintin.
+                    Her aff giøre de Piller met Vin som sagt er. Aff disse skal mand tage huer dag
+                    naar som Pestilentze regerer siu eller ote / oc den som er <pb/> befengt / skal
+                    tage it quintin met det snariste. Disse Pil<lb rend="="/>ler ere saare gode /
+                    Thi Aloe vddrager all wnaturlig vædske / Saffran styrcker Hiertet / oc giør gaat
+                    Blod. Myrrha renser Hoffuedet / oc beuarer det gantske Lege<lb rend="="/>me / at
+                    intet skal der vdi forfuldis / Mastix renser Maff<lb rend="="/>uen aff all
+                    slimhed.</p>
+                <p rend="indent">Denne er oc viss oc sorfaren Lægedom / mand
+                    skal<!--<note place="right">
+                        <hi rend="antiqua">Theriaca Andro<lb rend="=" />machi</hi>.</note>-->
+                    tage til sig Aarle om Morgenen it quintin Theragelse Andromachi / om Sommeren
+                    met Rosen vand / eller met Sure vand. Oc om Vinteren met Vin som blan<lb
+                        rend="="/>det er met Scabiose vand / eller met Carde benedicte vand / eller
+                    met vand aff Hiertens fryd / oc her paa skal mand faste vdi sex eller siu Timer.
+                    Denne Læge<lb rend="="/>dom maa oc giffuis met Angelice vand / lige som før er
+                    sagt.</p>
+                <p rend="indent">
+                    <hi rend="antiqua">Metridatum</hi> saaledis bruget som om Therragel<lb rend="="
+                    />sen<!--<note place="right">
+                        <hi rend="antiqua">Metridatum</hi>.</note>-->
+                    sagt er / er oc en viss oc forfaren Lægedom. Men vn<lb rend="="/>ge Menniske
+                    skal mand icke giffue mere end it halfft quintin / aff disse tuende forscreffne
+                    Lægedomme.</p>
+                <p rend="indent">Eller mand maa tage Aloes tu lodt / Myrrhe
+                    /<!--<note place="right">
+                        <hi rend="antiqua">Aloes.  Myrrha.  Agaricus.  Rhabarbarum. 
+              Sandalum.  Rosa purpurea.  Corrallus.  Diptanus.  Gentiana. 
+              Zeduaria.  Tormentilla</hi>.</note>-->
+                    Saffran / aff huert it halfft lodt / <hi rend="antiqua">Agarici preparati,
+                        Rhabarbarum</hi>, aff huert it quintin / Sandel rød oc gul / Røde Rosen /
+                    Corril / aff huert it quintin / Diptan / Entzian / Zedefær / Tormentilla / aff
+                    huert it quintin / her aff skal giøris Piller met Syrupe / <hi rend="antiqua"
+                        >Acetositatis Gi<lb rend="="/>tri</hi>, saa store at tre aff dem veye it
+                    Quintin. Aff disse Piller skal mand tage en om Afftenen naar mand vil gaa til
+                    Sengs / til en beuaring imod Pestilentze / oc den som er befengt / skal tage tre
+                    aff dem met det sna<lb rend="="/>riste.</p>
+                <p rend="indent">Denne er oc en kaastelig dyrebare Lægedom / huil<lb rend="="/>cken
+                    Keyser Maximilianus pleyde at bruge / den styr<lb rend="="/>cker Hiertet / oc
+                    beskermer Mennisket for forgifftelse. Oc er nogen befengt met Pestilentze / da
+                    vddriffuis den / om hun brugis vdi tide / før end Ederet tager offuer haanden /
+                    som er inden tolff timer / Oc skal saaledis giøris.</p>
+                <p rend="indent">Mand skal tage it nyt giort Æg / oc giøre it lidet hul der offuen i
+                    / oc lade det huide løbe vd / siden skal Ag<lb rend="="/>get fyldis fuldt aff
+                    wstøt Saffran / oc hullet skal lyckis igien met en Skal aff it andet Eg / Saa
+                    skal det stegis langsommelig / indtil Skalen bliffuer sortactigt / Dog skal mand
+                    vel tilsee / at det icke forbrendis / Siden skal det stødis smaat i en Mortere /
+                    met Skal oc alt / indtil Skalen intet mere kiendis / Saa skal mand tage saa
+                    <!--<note place="left">
+                        <hi rend="antiqua">Eruca</hi>.</note>-->meget
+                    huid Senip som Egget veyer met Saffran / oc smaat støt til Puluer. Der effter
+                    skal mand tage <hi rend="antiqua">Dip<lb rend="="/>
+                        <!--<note place="left">
+                            <hi rend="antiqua">Diptamus.  Tormentilla.  Nuces
+                uormicæ</hi>.</note>-->tanum,
+                        Tormentillam</hi> it halfft quintin aff huert / <hi rend="antiqua">Nu<lb
+                            rend="="/>ces vomicæ</hi>, aff somme Trane øyen kaldet / De skulle filis
+                    smaa met en Fil / thi de lade dem icke stødis smaa / it quintin / Angelice rod
+                    it halfft Lodt / Queseurt / aff
+                    <!--<note place="left">
+                        <hi rend="antiqua">Angelica.  Pimpinella. 
+              Zeduaria.  Camphora</hi>.</note>-->somme
+                    Backe rod kaldet it quintin / Zedefer halfft andet quintin / Campher it quintin
+                    / Alle disse skulle stødis til puluer. Siden skal mand tage saa megen god
+                        Thera<lb rend="="/>gelse / som alt dette forscreffne veyer / oc skulle
+                    blandis tilhaabe / oc stødis vel tilsammen i en Mortere i tho ti<lb rend="="
+                    />mer / Saa at det bliffuer som it ret <hi rend="antiqua">Electuarium</hi> bør
+                    at vere / oc siden skal det giemmis vdi it rent Kar. Denne Lægedom kand foruaris
+                    vdi xxx. Aar lige god. Her aff tager it Menniske som karskt er / saa meget som
+                    en Ha<lb rend="="/>selnød er met Vin / da bliffuer hand fri den dag for Pe<lb
+                        rend="="/>stilentze / Men den som befengt er / hand skal tage it quintin der
+                    aff met Vin som blandet er met Cardabe<lb rend="="/>nedicte vand / om Siugen
+                    tager nogen met Kuld. Ta<lb rend="="/>ger hun met Hede / da skal den giffuis
+                    Sure vand / met Rosen vand / som er blandet met lit Edicke / siden skal <pb/>
+                    den Siuge legge sig ned / oc saa suedis der paa vdi fem eller sex Timer. Vnge
+                    Menniske som ere xv. Aar / oc indtil de bliffue xx. Aar / skulle giffuis it
+                    halfft Qum<lb rend="="/>tin.</p>
+                <p rend="indent">Eller mand maa tage gode ferske Valnødder
+                    smuckt<!--<note place="right">
+                        <hi rend="antiqua">Nuclei Iuglandis.  Ficus.  Ruta.
+               Absinthium.  Aristologia longa  {et} rotunda.  Diptan. 
+              Bacce lauri.  Gentiana.  Valeriana.  Os de corde cerui.  Bolas
+              armenus.  Terra sigillata.  Maces.  Cinnamomum.  Gariophile. 
+              Aloes.  Zeduaria.  Grana Iuniperi</hi>.</note>-->
+                    rent skalede xx. Gode ferske Figen xv. Rude / Malurt / aff huert en haand fuld /
+                    lang oc tring Hulurt / aff huert it lodt / <hi rend="antiqua">Tormentilla
+                        Pimpinella</hi> Queseurt kaldet / <hi rend="antiqua">Dip<lb rend="="
+                        />tan</hi>, Lauerber rene skalede aff huert halff tredie quintin / Entzian /
+                    Valeriane rod / aff huert it quintin / Det Ben som findis i Hiorte Hierter it
+                    quintin / <hi rend="antiqua">Boli Armeni, Terra sigillata</hi>, aff huert tre
+                    quintin Muskateblommer / Canelebarck / Neglicker aff huert it quintin / Mastix
+                    it halfft quintin / Paradise træ / Zedefer aff huert it quin<lb rend="="/>tin /
+                    gode ferske Eneber try quintin / Alle disse skulle stø<lb rend="="/>dis til
+                    Puluer / saa skal mand tage her til try lodt god Theragelse / Rosen Edicke it
+                    lodt / Vin sex lodt / Salt it quintin / Disse skulle blandis oc vel stødis
+                    tilsammen / saa at det vorder it Electuarium / her aff skal mand huer anden dag
+                    tage til sig Aarle om Morgenen saa meget som en Haselnød er stor til / oc siden
+                    der paa faste fem el<lb rend="="/>ler sex timer.</p>
+                <p rend="indent">Eller mand maa tage Rudeblad en Haand fuld
+                    /<!--<note place="right">
+                        <hi rend="antiqua">Ruta.  Saluia.  Pimpenella.  Gentiana. 
+              Cardamomum.  Grana Iuniperi.  Nucle Iuglandis.  Bacce lauri. 
+              Tormentilla.  Bolas</hi>.</note>-->
+                    Saluie en halff Haand fuld / Disse skulle vel tørris saa at de kunde stødis til
+                    Puluer. Queseurte rod it lodt / Entzian it quintin / Cardamomer it lodt / Eneber
+                    tu lodt / Valnødde kierner reen skalede tu lodt / Lauerber it lodt / den Rod
+                    Columbrina it halfft lodt / Tormen<lb rend="="/>tille rod it halfft lodt / Bolas
+                    it lodt / alle disse skulle stø<lb rend="="/>dis til Puluer / oc mand skal tage
+                    her til Theragelse tu lodt / Rosen Edicke it lodt / Disse skulle stødis oc
+                    blandis vel tilsammen. Her aff skal mand tage om Morgenen saa meget som en
+                    Haselnød er stor til / oc siden skal mand <pb/> der paa faste vdi tre eller fire
+                    timer / oc denne er en god viss forfaren Lægedom.</p>
+                <lb/>
+                <!--<note place="left">For dem som <lb /> ere vande til <lb /> Brendeuin. <lb />
+                    <hi rend="antiqua">Zeduaria. <lb /> Angelica</hi>.</note>-->
+                <p rend="indent">Eller mand maa tage Brendeuin som brent er aff god Vin en halff Pot
+                    / her vdi skal ladis fire lodt ret god Theragelse / Zedefer / Angelica / aff
+                    huert it halfft quin<lb rend="="/>tin smaa støt til Puluer / disse skulle saa
+                    staa vdi nogle dage. Her aff skal mand tage to eller tre taare / oc dem holde
+                    nogen stund vdi Munden / oc siden ned sluge dem / mand skal oc stryge her aff
+                    vdi Næseborerne / før mand gaar vd i Lucten.</p>
+                <lb/>
+                <!--<note place="left">
+                    <hi rend="antiqua">Bolas. <lb /> Terra sigillata. <lb /> Corallus
+            rubcus. <lb /> Cortex Citri. <lb /> Zeduaria. <lb /> Crocus. <lb /> Saccharum Rosa<lb rend="=" />rum</hi>.</note>-->
+                <p rend="indent">Eller mand maa tage <hi rend="antiqua">Boli Armeni</hi> it halfft
+                    lodt / <hi rend="antiqua">Terræ sigillatæ</hi>, rød Correlsten aff huert it
+                    quintin / Barcken aff <hi rend="antiqua">Citro</hi>, Zedefær / Saffran aff huert
+                    it halfft quintin / Rosen Sucker / aff røde Rosen tolff lodt / Si<lb rend="="
+                    />rupus <hi rend="antiqua">acetose citri</hi> xx. lodt / alle disse skulle
+                    stødis vel til<lb rend="="/>sammen / her aff skal mand tage it quintin til en
+                        forua<lb rend="="/>ring met Vin / eller met Rosen vand / eller for sig selff
+                    / om mand kand icke faa disse / oc den som befengt er / skal strax tage it
+                    quintin der aff / oc it quintin god Theragel<lb rend="="/>se / oc menge det vel
+                    met Scabiose vand / Sure vand / eller met Rosen vand / oc strax legge sig vdi
+                    Sengen at hand kand suedis.</p>
+                <lb/>
+                <!--<note place="left">
+                    <hi rend="antiqua">Camphora. <lb /> Zinzeber. <lb /> Os de corde
+            cerui. <lb /> Diptanus. <lb /> Tormentilla. <lb /> Doronici. <lb /> Euphorbium. <lb />
+            Theriacha</hi>.</note>-->
+                <p rend="indent">Eller mand maa tage Campher it halfft lodt / Jn<lb rend="="/>gefer
+                    it lodt / det Ben som findis vdi Hiorte hierte / Dip<lb rend="="/>tan /
+                    Tormentilla / aff huert it quintin / <hi rend="antiqua">Doronici</hi>, det er /
+                    Krane øyen / smaat filede it lodt / <hi rend="antiqua">Euphorbium</hi> it
+                    quintin / god Theragelse tu lodt / alle forscreffne skal stø<lb rend="="/>dis
+                    til Puluer / oc blandis vel tilsammen met Theragel<lb rend="="/>sen / her aff
+                    skal mand giffue den Siuge it quintin met Vin / eller met it aff de Vand som
+                    offuenfaare offte om talet er.</p>
+                <lb/>
+                <!--<note place="left">
+                    <hi rend="antiqua">Doronicl. <lb /> Bolas. <lb /> Diptanus. <lb />
+            Terra sigillata</hi>.</note>-->
+                <p rend="indent">Eller mand maa tage <hi rend="antiqua">Doronici</hi>, det er Krane
+                        øy<lb rend="="/>en smaa filede / <hi rend="antiqua">Bolas Armenus, Diptan,
+                        Terræ sigil<pb rend="="/>latæ</hi>, Tormentilla aff huert tu lodt /
+                    Hiertenfryds blad
+                    /<!--<note place="right">
+                        <hi rend="antiqua">Tormentilla.  Millissa. 
+              Acetosa</hi>.</note>-->
+                    Surer aff huer en halff Haand fuld / Saffran / Aloes træ aff huert it quintin /
+                    god Theragelse saa meget som alt forscreffne veyer / disse skulle tilsammen
+                    blandis / her aff skal mand giffue it quintin met Vin / eller oc noget aff
+                    offuenfaare screffne vand.</p>
+            </div>
+            <div>
+                <head><reg>10. kapitel</reg>
+                    <orig>Det x. Capittel. <lb/> Er nogen befengd / huorledis det kand <lb/>
+                        forfaris.</orig></head>
+                <p> AF disse Tegn kand mand forfare om no<lb rend="="/>gen er befengd. Om mand
+                    formercker sig at vere hoffuen vdi sine Rører / Hals / eller vn<lb rend="="/>der
+                    Armhulerne / eller oc ved Ørerne / eller paa nogen anden sted. Om hannem siunis
+                    at der preger oc stinger alle vegne vdi hannem. Om hand for mercker stor hede
+                    induaartis / oc der til haffuer tørcke oc tørst. Dog faa oc mange Pestilentze
+                    met stor kuld. Naar mand siunis at ville suede oc kand dog icke suedis. Om mand
+                    begynder snarlige at faa en suar Aandefang. Om mand formercker Hoffuetuerck /
+                    thi der sielden begyndis Pestilentze vden Hoffuetuerck. Stor begiering til Søffn
+                    / men somme haffue saa stor hede oc Forgifft vdi dem at de kunde intet soffue.
+                    Naar som Øynene foruandlis oc skiffte farffue / wsæduanlig smag vdi Munden som
+                    er besk eller sur. Om mand bliffuer fuar oc wbequem til at røre sig. Disse ere
+                    de al<lb rend="="/>mindelige Tegen / aff huilcke mand maa kiende om it Menniske
+                    er befengt. Endog der findis oc saa mange andre Tegen.</p>
+            </div>
+            <div>
+                <head><reg>11. kapitel</reg>
+                    <orig>
+                        <pb/>Det xj. Capittel. <lb/> Farlige onde Tegen.</orig></head>
+                <p> DJsse ere farlige Tegen / om mand off<lb rend="="/>te kaster op eller spyer / Om
+                    mand faar at<lb rend="="/>skillige farffuer vdi Ansictet / besynderlig om det
+                    bliffuer blaat eller sort. Om mand sueder offte kaalder Sued / Om nogens Aande /
+                    eller andet som naturlige fra Mennisken gaar lucter ilde. Om Krampe tager
+                    nogen.</p>
+            </div>
+            <div>
+                <head><reg>12. kapitel</reg>
+                    <orig>Det xij. Capittel. <lb/> Huorledis der handlis skal met dem som <lb/> er
+                        befengt.</orig></head>
+                <p> HVilcken som formercker sig at vere be<lb rend="="/>fengt aff forscreffne Tegen.
+                    Hand skal met det allerførste begiere hielp oc trøst aff Gud vdi Himmerige (thi
+                    at Pestilentze er en be<lb rend="="/>synderlig Guds straff som førre sagt er) oc
+                    naar hun det giort haffuer / da skal hand strax Aarelo<lb rend="="/>dis / paa de
+                    steder som offuenfaare i det femte Capittel screffne staa / om saa er at hand er
+                    sexten Aar / siden skal hand tage en aff de Lægedommer til sig / som
+                        offuenfaa<lb rend="="/>re oc screffne staa / huilcke Mennisken for
+                    Pestilentze besker me / skal sig saa nedlegge / oc hylle vel paa sig / at hand
+                    kand suedis vdi fire eller fem timer / eller oc lengre / om hand det taale oc
+                    fordrage kand / oc hand skal vel vaacte sig saa / at hand kaster icke Klæderne
+                    aff sig / saa <pb/> at Lucten rører hannem / paa det at Sueden icke igien
+                    indslas til de Lemmer fra huilcke hand er vddreffuen / oc naar hand haffuer
+                    suedet / skal Sueden aff tørris met varme lin Klude / oc de Lagen paa huilcke
+                    den Siuge laa skulle borttagis / oc rene leggis vdi steden igien.</p>
+                <p rend="indent">Oc om den Siuge kand icke suedis / da skal
+                    mand<!--<note place="right">Jcke kand sue<lb rend="=" />dis.</note>--> suøbe
+                    hede Tegelstene vdi lin Klude oc legge den vnder Sengklæderne til den Siuge / en
+                    aff dem skal leggis mod Brystet / oc den anden neden vnder Fødderne.</p>
+                <p rend="indent">Eller mand maa lade hed Vand vdi Vinflasker / oc her met handle som
+                    sagt er.</p>
+                <p rend="indent">Mand skal oc vaadgiøre it stycke aff en Suomp vdi Rosen Edicke / i
+                    huilcken lit Saffran er lagt / oc den skal holdis for den Siugis Næse / det
+                    styrcker den Siuge meget.</p>
+                <p rend="indent">Eller mand maa tage Osen aff Rude / oc
+                    blande<!--<note place="right">
+                        <hi rend="antiqua">Succus Rutæ.  Acetum Rosarum.  Camphora</hi>.</note>-->
+                    den met Rosen Edicke oc lit Campher / oc bruge det som sagt er / denne Lægedom
+                    styrcker Hiertet saare vel.</p>
+                <p rend="indent">Naar som den Siuge haffuer vel suet / oc er bleff<lb rend="="
+                    />uen<!--<note place="right">Tørster den  Siuge.</note>--> kaald igien / oc hand
+                    da saare tørster / da skal mand giffue hannem denne drick saaledis tilgiort.
+                    Mand skal tage Rosen vand / Sure vand lige meget aff huert / Bo<lb rend="="
+                    />ras<!--<note place="right">
+                        <hi rend="antiqua">Aqua Rosarum.  Acetose. 
+              Borraginis</hi>.</note>-->
+                    vand helfften saa meget / vdi disse Vand skal sønder vrides / it halfft lodt
+                    Rosen Sucker / oc Theragelse tre<lb rend="="/>die delen aff it Quintin / Her aff
+                    skal mand giffue den Siuge noget vdi tre eller fire dage om Morgenen førre lit
+                    luncket giort / oc der paa skal hand faste vdi tre timer. Aff denne Lægedom
+                    styrckis Hiertet / oc driffuer det onde der fra.</p>
+                <p> Denne Lægedom styrcker oc
+                    Hiertet<!--<note place="right">Hiertet styrcke.</note>--> saare vel. </p>
+                <p rend="indent">Mand skal tage Rosen vand tolff lodt / Sure vand
+                    /<!--<note place="right">
+                        <hi rend="antiqua">Aqua Rosarum.  Acetose. 
+              Borraginis.  Acetum Rosarum</hi>.</note>-->
+                    Borrase vand / aff huert sex lodt / Rosen Edicke / fem <pb/> lodt /
+                    Saffran<!--<note place="left">
+                        <hi rend="antiqua">Crocus.  Camphora</hi>.</note>-->
+                    saa meget som en Blaffert kand veye / Campher saa meget som en Bygkorn veye /
+                    disse skulle vel tilsammen blendis / her vdi skal vaadgiøris en fire hiørnet lin
+                    Klud som er en spand lag / oc den skal leggis paa det venstre Bryst luncket / oc
+                    den skal saaledis der paa ligge vdi ti Timer. Men vil den Siuge æde no<lb
+                        rend="="/>get før / da skal samme lin Klud afftagis / oc to Ti<lb rend="="
+                    />mer effter at den Siuge haffuer ædt / skal den igien paa leggis.</p>
+                <lb/>
+                <!--<note place="left">Ederet vd at <lb /> drage.</note>-->
+                <p rend="indent">Naar som den Siuge haffuer vel suedt / da skal mand tage vnge Høns
+                    / eller oc vnge Haner / oc plocke fierene vel aff dem hos Artzen / oc siden
+                    vride samme sted vel met Salt / saa skal mand holde samme sted aff Høns eller
+                    Haner paa Pestilentzens byld indtil at Hønset eller Hanen døer. Naar som den er
+                    død / da skal mand tage en anden / oc den bruge som sagt er / io fleresaaledis
+                    dø / io bedre det er / thi de drage Ederet til dem. Dette met Hønerne eller met
+                    Hanerne maa brugis til vnge oc spæde Børn / som ere befengde met Pestilentze /
+                    her met ere mange hiulpne som haffue veret befengde met Pesti<lb rend="="
+                    />lentze.</p>
+                <p rend="indent">Der effter skal mand tage gode Egler som tagne ere vdi ferske Søer
+                    (vdi huilcke mange Frøer ere) som ere trinde røde / eller leffuer farffuede / oc
+                    haffue smaa Hoffuet / kand mand faa disse / da ere de bæst / disse vd<lb
+                        rend="="/>drage det onde Blod / thi de det aff naturen haffue / at de heller
+                    vddrage det onde Blod / end det gode / Før end de sættis paa steden / skal
+                    steden gnidis met Salt indtil den bliffuer rød / oc siden thoes met luncket Vand
+                    / Oc saa skal samme sted smøris met gaat Blod aff en Høn<lb rend="="/>ne eller
+                    Due / saa henge Eglene diss bedre ved. Oc naar som mand vil at de skulle icke
+                    lengre drage / da skal mand kaste Salt eller Aske paa deris Hoffuet / da falde
+                    de fra <pb/> steden. Det er oc gaat at mand sætter en Koppe paa samme sted igien
+                    / Paa det at det onde Blod som igien inde er bleffuet kand vddragis. Oc om det
+                    vilde bløde formeget / oc Blodet vilde icke stilles / da skal mand bren<lb
+                        rend="="/>de Gallas til Puluer / oc strø der aff paa Saaret /
+                    da<!--<note place="right">
+                        <hi rend="antiqua">Gallas</hi>.</note>-->
+                    stillis det.</p>
+                <p rend="indent">Der effter skal den Siuge rensis eller purgeris met Clistere bag
+                    ind / eller met andre Lægedomme som pur<lb rend="="/>gere oc Stolgang giøre.</p>
+            </div>
+            <div>
+                <head><reg>13. kapitel</reg>
+                    <orig>Det xiij. Capittel. <lb/> Om Heffuelse eller Pestilentze
+                    Byld.</orig></head>
+                <p> FØrst skal mand giøre all sin flid der til at forgifftelsen kand vddragis som
+                    sagt er. Mand skal icke heller legge paa Bylden <hi rend="antiqua"
+                        >Repercussiua</hi>, det er kaalde ting / thi For<lb rend="="/>gifftelsen
+                    driffuis der aff indtil Hiertet. Men mand skal legge dette Plaaster paa Bylden /
+                        huil<lb rend="="/>cket som vddrager Forgifftelsen.</p>
+                <p rend="indent">Tag en Løg / oc giør it hul vdi hannem / oc op<lb rend="="/>fyld
+                    Hullet vd igien met Theragelse oc støt Entzian / giør saa Hullet til igien /
+                    vind samme Løg vdi bloer / oc steg hannem vel vdi hed Aske eller Jldmørie /
+                    skale oc stød hannem siden vel met det som vdi hannem er / oc bint hannem paa
+                    Bylden / Oc naar som Byldens for<lb rend="="/>gifftelse er vddragen / leg hannem
+                    met den Smørelse som giort er i Honnig / Bygmel oc aff Æggeblommer. Eller som
+                    mand selff vil / oc som huer bæst siunis.</p>
+                <p rend="indent">Paa det at den onde forgifftige vædske som er vdi Bylden skal icke
+                    videre vdsprede sig / da skal mand ta<lb rend="="/>ge Rosen
+                    Vand<!--<note place="right">
+                        <hi rend="antiqua">Aqua Rosarum</hi>.</note>-->
+                    to Skeder fulde / Vin Edicke en <pb/> Ske fuld / her vdi skal røris noget Bolas
+                    / her aff skal smøris om kring Bylden.</p>
+                <p rend="indent">Plasterne eller andet hues som mand bruger til saadanne forgifftige
+                    Bylder / de skulle offte fornyes / der skal oc vere it føye Hul mit paa
+                    Plasteret / paa det at den onde forgifftige damp kand dragis der vd. Oc om mand
+                    haffuer icke bruget Egler / som ieg offuen faare lærde / da skal mand icke
+                    forhale met Pestilentzis Byld / oc tøffue saa lenge til hand blødis aff sig
+                    selff / oc der gaar Hul paa hannem / oc hannem siden rense / oc læge som offuen
+                    faare sagt er.</p>
+                <lb/>
+                <!--<note place="left">
+                    <hi rend="antiqua">Absiuthium. <lb /> Ruta</hi>.</note>-->
+                <p rend="indent">Mand maa tage Malurte / Rude / lige meget aff huert / oc støde
+                    disse til puluer / oc blande dem met Men<lb rend="="/>niskens Møg eller Skarn /
+                    saa meget skal der aff tagis lige som Vrterne ere store til / her aff skal
+                    giøris Pla<lb rend="="/>ster / oc leggis paa Bylden / da gaar der snart Hul paa
+                    hannem. Siden skal mand smøre Smør paa it Lin<lb rend="="/>klude / oc legge det
+                    paa Hullet / dette skal offte om dagen fornyes / otte eller ti sinde / oc dette
+                    skal brugis all den stund der er Rødde vdi Bylden / oc siden tillægis som sagt
+                    er.</p>
+                <p rend="indent">Eller mand maa tage Blommen aff it Eg / oc røre den vel met Salt /
+                    oc den paa Bylden legge / oc huer time skal det fornyes.</p>
+                <p rend="indent">Eller mand maa legge paa Bylden huid Lilie rod.</p>
+                <p rend="indent">Mand maa tage Figen oc Rosiner som gode ere / aff huert it lodt /
+                    Disse skulle stødis vel tilsammen / her til skal tagis it quintin Salpeter støt
+                    til puluer / oc blan<lb rend="="/>dis der iblant / her aff skal giøris Plaster
+                    met Olie aff Cammille blommer / oc dette skal leggis varmt paa Bylden.</p>
+                <p rend="indent">
+                    <pb/>Mand maa støde Hylde blad oc Senip tilsam<lb rend="="/>men / oc legge det
+                    paa Bylden.</p>
+                <p rend="indent">Mand maa blande Surdey met Lissebons Olie / oc det paa legge.</p>
+                <p rend="indent">Eller mand maa giøre en Grød aff Huedemel oc Honnig / oc aff en
+                    stegter Løg / oc dette paa Bylden legge / dette Plaster er offte forsøgt.</p>
+                <p rend="indent">Om nogen forferder sig der aff at mand hugger eller brender hul paa
+                    saadanne Bylder / da skal mand tage Gøsemøg oc blande det met Lissebons Olie /
+                    oc leg<lb rend="="/>ge det paa Bylden / da gaar der hul paa hannem.</p>
+                <p rend="indent">Om mand haffuer stor pine vdi saadanne Byl<lb rend="="/>der / da
+                    skal der icke leggis paa den Lægedom som tilsam<lb rend="="/>men drager / men
+                    den som modgiør oc pinen stiller / thi pinen drager den Materie selff tilsammen.
+                    Men mand skal vaadgiøre Bomuld eller en Suomp vdi
+                    Lissebons<!--<note place="right">
+                        <hi rend="antiqua">Oleum oliuarum</hi>.</note>-->
+                    Olie / Olien førre lit varmt giort / oc den paa steden legge.</p>
+                <p rend="indent">Eller mand maa vaadgiøre en Suomp vdi Vand huor vdi
+                    Chammilleblommer saadne ere / oc den passelig varm paa legge.</p>
+            </div>
+            <div>
+                <head><reg>14. kapitel</reg>
+                    <orig>Det xiiij. Capittel. <lb/> Forgiffuis nogen met Eder.</orig></head>
+                <p> DEn Konst at forgiffue hinanden met Eder / brugis (Gud vere loff) sielden vdi
+                    disse Land som førre sagt er / Men om saa skede / at nogen bleffue forgiffuen
+                    (det Gud naadelig affuende) At mand da kun<lb rend="="/>de vide / Huorledis mand
+                    hannem hielpe skulde / vil ieg her oc noget der om røre / oc først skal mand
+                    vide at der ere mange atskillige Lægedomme til / baade enfaaldige oc tilsammen
+                    satte / Huilcke mand maa bruge om no<lb rend="="/>gen bliffuer forgiffuen met
+                    Forgifft oc Eder / huilcke som Ederet borttage / om de brugis vdi tide før end
+                        E<lb rend="="/>deret tager offuerhaand / oc serdelis tiæne disse
+                        effterføl<lb rend="="/>gendis her til: Rude / Diptan / Tormentilla / Entzian
+                    / Krusemynte / Hiertens fryd / <hi rend="antiqua">Terra sigillata, Bolas
+                        Armenus</hi>, Krane øyen <hi rend="antiqua">Doronici</hi> kaldede / Lauerber
+                    / Kræffts øyen / Figen / Valnøder / Hul vrt / Holtz vrt / (aff somme S: Eline
+                    rod kaldet) Jordhumle / Peber<lb rend="="/>rod. Alle disse forneffnde fordriffue
+                    Eder oc Forgifft / aff deris rette nature / Huorledis disse skulle rettelige
+                    brugis / haffuer ieg her offuen faare giffuet tilkiende / der som ieg haffuer
+                    handlet om Pestilentzis Eder oc Forgifft.</p>
+                <p rend="indent">Disse tilsammen sætte Lægedomme fordriffue Forgifft oc Eder / oc de
+                    findis vdi Apotecken beredde: Theragelse <hi rend="antiqua">Andromachi</hi> oc
+                        <hi rend="antiqua">Galeni, Mitridatum, Au<lb rend="="/>rea Alexandrina,
+                        &amp;c</hi>.</p>
+            </div>
+            <div>
+                <head><reg>15. kapitel</reg>
+                    <orig>Det xv. Capittel. <lb/> Om mand reddis at mand haffuer taget <lb/>
+                        Forgifft til sig.</orig></head>
+                <p> MEen nogen at hand haffuer taget Forgifft eller Eder til sig / da skal hand
+                    <!--<note place="left">Forgifft aff hed  nature.</note>-->giffue god act der paa
+                    / om Forgifftelsen haffuer veret aff hed eller kaalder nature. Haffuer den veret
+                    aff hed nature / da er den Siugis Tunge tør oc reffnis / oc haffuer stor tørst /
+                    <pb/> oc vorder mactløs / oc faar sting til Hiertet / vemser saa<lb rend="="/>re
+                    / stundem faar mand oc stor Bugløb.</p>
+                <p>Lægedom.</p>
+                <p rend="indent">Fornemmer nogen faaresagde Tegn / da skal hand strax tage <hi
+                        rend="antiqua">Bolas</hi> oc <hi rend="antiqua">Terram sigillatam</hi>, oc
+                    støde disse til puluer / oc dricke her aff it quintin met Gede<lb rend="="
+                    />melck / oc siden skal hand bruge en Drick som giør at spy / Da gaar Ederet fra
+                    hannem.</p>
+                <p rend="indent">Haffuer Ederet veret aff kaald nature / da
+                    soffue<!--<note place="right">Forgifft aff  kaald nature.</note>--> alle hans
+                    Lemmer / oc Krampe tager hannem / oc Tun<lb rend="="/>gen bliffuer lam / saa at
+                    hand kand icke vel tale.</p>
+                <p>Lægedom.</p>
+                <p rend="indent">Mand skal strax giffue den Siuge it quintin ret god Theragelse /
+                    eller døer hand aff Forgifftelsen.</p>
+            </div>
+            <div>
+                <head><reg>16. kapitel</reg>
+                    <orig>Det xvj. Capittel. <lb/> Forgifftige Diur oc Orme / huorledis de <lb/>
+                        skulle fordriffuis.</orig></head>
+                <p> DEt sker tit oc offte at forgifftige Orme giffue dem ind i en Mands Hus oc Bolig
+                    / eller oc vdi hans Gaard oc Haffue / oc paa den sted som mand idelige gaar oc
+                    handler / oc de forgiffue mangen mand met deris Forgifft oc Eder / stundem met
+                    deris Siun / stundem bide oc stinge en / stundem vdspy de deris Forgifft oc Eder
+                    vdi Kar oc Fad / som mand haffuer sin Mad oc Drick vdi / stundem forgiffue de en
+                    met deris Aande oc onde Luct.</p>
+                <p>
+                    <pb/>Lægedom.</p>
+                <lb/>
+                <!--<note place="left">
+                    <hi rend="antiqua">Ruta <lb /> Galbanum. <lb /> Cornu
+          Cerui</hi>.</note>-->
+                <p rend="indent">Vil mand fordriffue saadanne forgifftige Orme oc Diur aff sin bolig
+                    / Huss eller Gaard / da skal mand tage Rude / den <hi rend="antiqua">Gummi
+                        Galbanum</hi>, oc Hiorte Horn / aff huert en haand fuld / her aff skal mand
+                    giøre en røg / da fly de / vere sig Hugorme / Øgler / Scorpion / Eder / koppe
+                    etc. Huor som mand planter Rude oc Benedicte vrt / didt komme icke forgifftige
+                    Orme.</p>
+                <p rend="indent">De rige oc store Herrer de skulle haffue vdi deris Gaarde oc
+                    Haffuer / Paafugle / Storcke / Kraner / thi at alle forgifftige Diur fly for
+                    disse aff ret natur.</p>
+            </div>
+            <div>
+                <head><reg>17. kapitel</reg>
+                    <orig>Det xvij. Capittel. <lb/> Bidis ngen aff en Hugorm.</orig></head>
+                <p> KLiffuer nogen biden eller stungen aff nogen Hugorm eller Snog / da skal mand
+                    tage vnge Haner eller Høns / oc holde dem paa steden / oc der met handle lige
+                    som om Pestilentzis Byld sagt er. Oc naar som mand haffuer bruget Hanerne eller
+                    Hønsene / siden skal der sættis en Koppe paa steden / oc lade den vddrage E<lb
+                        rend="="/>deret / Der effter skal mand giøre en Smørelse / oc her met skal
+                    Saaret smøris / mand skal oc giøre Plaaster aff
+                    <!--<note place="left">
+                        <hi rend="antiqua">Galbanum.  Serapinum.  Myrrha.
+               Asa fœtida.  Oppoponacum.  Piper.  Sulphur. 
+            Ruta</hi>.</note>-->samme
+                    Smørelse / oc legge det paa Saaret.</p>
+                <p rend="indent">Mand skal tage disse <hi rend="antiqua">Gummer Galbanum, Se<lb
+                            rend="="/>rapinum</hi>, Myrrha / <hi rend="antiqua">Asam fœtidam,
+                        Oppoponacum</hi>, Peber / Suoel / Rude / lige meget aff huer / disse skulle
+                        stø<lb rend="="/>dis til Puluer / oc blendis met Vin / saa at det vorder til
+                    en Smørelse / oc brugis som sagt er.</p>
+                <p rend="indent">
+                    <pb/>Om den som stungen er dricker en god drick Vin Edicke / da giffuer Ederet
+                    sig vd.</p>
+                <p rend="indent">Mand maa oc vel bruge de Lægedomme som her offuenfaare vdi denne
+                    Bogs sexte Capittel screffne staa / thi de vddriffue Forgifft oc Eder.</p>
+            </div>
+            <div>
+                <head><reg>18. kapitel</reg>
+                    <orig>Det xviij. Capittel. <lb/> Eder Koppes sting.</orig></head>
+                <p> STinger en Eder koppe nogen / da skal Saaret smøris met Osen aff Endiuia / oc
+                    siden skal mand holde it kalt Jern paa Saa<lb rend="="/>ret.</p>
+            </div>
+            <div>
+                <head><reg>19. kapitel</reg>
+                    <orig>Det xix. Capittel. <lb/> Om Bi oc Bremse.</orig></head>
+                <p> KJer oc Bremser de haffue en Forgifft vdi dem / oc om de stinge nogen / da skal
+                    mand strax holde it kalt Jern / eller en kaal<lb rend="="/>der Sten paa steden.
+                    Siden skal mand ta<lb rend="="/>ge Bolas oc Campher / oc røre disse vel til<lb
+                        rend="="/>sammen met Rosen vand / oc smøre der aff paa steden som stunget
+                    er.</p>
+                <p rend="indent">Roden aff den Katost Althea kaldet / støt met E<lb rend="="/>dicke
+                    oc lagt paa Saaret / hielper strax.</p>
+            </div>
+            <div>
+                <head><reg>20. kapitel</reg>
+                    <orig>Det xx. Capittel. <lb/> Bides nogen aff en Kat.</orig></head>
+                <p> VOrder nogen biden aff en Kat / eller aff en Affue / da skal mand blande Hønse
+                    møg / oc Bolas tilsammen met Olie aff Mynthe / der aff skal leggis paa steden
+                    som er biden.</p>
+            </div>
+            <div>
+                <head><reg>21. kapitel</reg>
+                    <orig>
+                        <pb/>Det xxj. Capittel. <lb/> Bides aff Røtte.</orig></head>
+                <p> VOrder mand biden aff nogen Røtte / det er saare farligt. Da skal mand tage en
+                    Tosse / oc legge den vdi en ny Leerpotte oc brende den til Puluer / aff det
+                    Puluer skal strøes vdi Saaret / Samme puluer maa oc brugis til andre saadanne
+                    Forgifftige bid.</p>
+            </div>
+            <div>
+                <head><reg>22. kapitel</reg>
+                    <orig>Det xxij. Capittel. <lb/> Om it fastendis Menniske bider <lb/>
+                        nogen.</orig></head>
+                <p> VORder nogen biden aff it fastendis Menniske / huilcket oc saare farligt er /
+                    Thi der aff vaaxe onde forgifftige Bylder / paa saadanne bid skal leggis den
+                    Lægedom som offuenfaare om Katte bid screffuet staar.</p>
+            </div>
+            <div>
+                <head><reg>23. kapitel</reg>
+                    <orig>Det xxiij. Capittel. <lb/> Om nogen forgiøris aff nogen <lb/>
+                        Quinde.</orig></head>
+                <p> HAffuer nogen Quindis Persone det saa skicket oc giort met Konst / at mand skal
+                    ingen elske vden hende allene / oc om mand vil giøre hendis Konst til intet / Da
+                    skal mand saaledis handle.</p>
+                <p rend="indent">
+                    <pb/>Mand skal tage Perler oc Jordhumle / aff
+                    huert<!--<note place="right">
+                        <hi rend="antiqua">Margarite.  Hypericon</hi>.</note>-->
+                    it quintin / Disse skulle stødis til Puluer / oc drickis met vand som brent er
+                    aff Hiertens fryd / oc mand skal hen<lb rend="="/>ge it stycke aff en Segelsten
+                    om halsen / saa at hand hen<lb rend="="
+                    />ger<!--<note place="right">
+                        <hi rend="antiqua">Magnes</hi>.</note>-->
+                    paa det bare Bryst.</p>
+            </div>
+            <div>
+                <head><reg>24. kapitel</reg>
+                    <orig>Det xxiiij. Capittel. <lb/> Haffuer nogen ædt forgifftigt roddet <lb/>
+                        Kiød.</orig></head>
+                <p> HAffuer nogen ædt noget roddet Kiød / eller rodden Fisk / da skal mand komme den
+                    til at spy som det ædt haffuer / der effter skal mand giffue hannem at dricke
+                    Vin oc Peber blandede tilsammen.</p>
+                <p rend="indent">Her disse Riger oc Land vaaxe oc atskillige slags Vrter oc Rødder /
+                    huilcke som Forgifft oc Eder i dem haffue / oc om ieg screffue dem her (maa vel
+                    ske) at der to<lb rend="="/>re vere de til som dem maatte vanbruge oc forgiffue
+                        no<lb rend="="/>gen der met / Thi vil ieg lade dem fare paa denne tid / oc
+                    her met ende hues ieg om Pestilentze oc andet Eder scriff<lb rend="="/>ue
+                    vil.</p>
+                <p rend="indent">Der som mand elsker oc frycter Gud / oc paakal<lb rend="="/>der
+                    hannem met en ret fast oc stadig Tro / holder oc ski<lb rend="="/>cker sig
+                    effter denne min scriffuelse / Da bliffuer mand fri fra Pestilentze / oc døer
+                    icke aff hende / vden saa er / at den euige Almectigste Gud vil ser<lb rend="="
+                    />delis haffue hannem til sit euige Rige / eller oc vil straffe hannem.</p>
+                <lb/>
+                <figure>
+                    <figDesc>nil</figDesc>
+                </figure>
+                <pb/>
+                <figure>
+                    <figDesc>nil</figDesc>
+                </figure>
+                <p> Prentet i Kiøbenhaffn aff Andrea Gutterwitz. <figure>
+                        <figDesc>nil</figDesc>
+                    </figure> Paa Baltzer Kausis / Borgeris oc Boge<lb rend="="/>føreris samme steds
+                        bekaast<lb rend="="/>ning. Oc findis hos hannem til Kiøbs. #S+<hi
+                        rend="antiqua">ANNO</hi>#S- ------------------------------ <hi
+                        rend="antiqua">M. D. LXXVII</hi>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
