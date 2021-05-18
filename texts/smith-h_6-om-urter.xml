@@ -326,7 +326,7 @@
                         <p rend="indent">Lige som Neller verme oc atskilie / saa giør oc <hi
                                     rend="antiqua">Maru<lb rend="="/>bium</hi>. De huide loffuis
                               mest / oc maa brugis induaartis oc vduaartis.</p>
-                        <p>Jnduaartis.</p>
+                        <div><head>Jnduaartis.</head>
                         <p rend="indent">Bladene aff den huide <hi rend="antiqua">Marubio</hi>, i
                               Vin eller Vand saaden / der iblant rent vel skummet Honnig / oc
                               drucket / fordriffuer den trange stackede Aande / Hoste / Brystens
@@ -340,9 +340,9 @@
                         <p rend="indent">Samme Oes er oc god til dem som Eder eller For<lb rend="="
                               />gifft ædt haffue / oc aff forgifftelige Orme bedne ere.</p>
                         <p rend="indent">Denne Oes giør klare Øyen / døder Ormene i Liffuet / oc i
-                              Ørnene.</p>
-                        <p>
-                              <pb/>Vduaartis.</p>
+                              Ørnene.</p></div>
+                        <div>
+                              <head>Vduaartis.</head>
                         <p rend="indent">Alle <hi rend="antiqua">Marubia</hi> tiurde / tiene vel til
                               Bad / oc at røge vnderneden op met / paa de Quinder som plagis met den
                               huide phlegmatiske flodt oc stedse ont i Ryggen / Be<lb rend="="/>nene
@@ -357,7 +357,7 @@
                         <p rend="indent">Om nogen haffuer gaaet eller arbeidet sig træt / hand skal
                               tage Osen aff <hi rend="antiqua">Marubio</hi>, oc blande den met Ro<lb
                                     rend="="/>sen olie / oc smøre sig der met.</p>
-                  </div>
+                  </div></div>
                   <div>
                         <head><reg>Hjertensfryd</reg>
                               <orig>Hiertens fryd.</orig></head>
@@ -370,7 +370,7 @@
                               vermer / tørrer / fortærer / læger oc tilsammen drager / Maa brugis
                               induaartis oc vduaartis / Læss <hi rend="antiqua">Dioscoridem lib:
                                     iij. Cap: cix</hi>.</p>
-                        <p>Jnduaartis.</p>
+                        <div><head>Jnduaartis.</head>
                         <p rend="indent">Hiertens fryd i huid Vin saaden / oc den i nogle dage
                               drucket / rømmer Brystet / den stackede oc trange Aande / Styrcker
                               Hiertet / Fordriffuer Melancø<lb rend="="/>lies wlystighed / den
@@ -383,8 +383,8 @@
                               som i Hoffue<lb rend="="/>det opfar.</p>
                         <p rend="indent">Renser oc læger Mundsens saar / der met thoet.</p>
                         <p rend="indent">Bladene aff Hiertens fryd fastendis ædt / foruer<lb
-                                    rend="="/>mer Maffuen.</p>
-                        <p>Vduaartis.</p>
+                                    rend="="/>mer Maffuen.</p></div>
+                        <div><head>Vduaartis.</head>
                         <p rend="indent">Hiertens fryd oc Commendeblomster / lagde i en Linpose / i
                               Vand eller i Vin saaden / vdkryst och saa varmt lagt paa den wrolige
                               Moder / stiller hendis opstø<lb rend="="/>delse oc rørelse / oc kommer
@@ -401,7 +401,7 @@
                               fersk oc gaat / Fluer eller Madke komme icke paa det.</p>
                         <p rend="indent">Haaret met samme Vand vaadgiort / beskermer det saa / at
                               det bliffuer icke graat.</p>
-                  </div>
+                  </div></div>
                   <div>
                         <head><reg>Kattegræs</reg>
                               <orig>Maru eller Katurt.</orig></head>
