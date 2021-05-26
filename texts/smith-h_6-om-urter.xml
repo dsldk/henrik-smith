@@ -511,15 +511,15 @@
                                     rend="="/>cke Vand / oc redis der for at det skal icke vere gaat
                               / da skal mand legge Polleie der vdi / saa maa mand dricke det vden
                               all fare.</p></div>
-                  </div>
-                  <div>
-                        <head><reg>Polejmynte, udvortes brug</reg>
-                              <orig>Vduaartis.</orig></head>
+                        <div>
+                        <head>Vduaartis.</head>
+                             
                         <p rend="indent">En krants giort aff Polleie / oc paa Hoffue<lb rend="="
                               />det sæt / er god for Hoffuedens suimmelse / paa Hoffuet lagt /
                               stiller hoffuit verck.</p>
                         <p rend="indent">Huo som krampe drager / hand skal riffue eller gni<lb
                                     rend="="/>de stæden met Salt / Edicke / oc Polleie.</p>
+                  </div>
                   </div>
                   <div>
                         <head><reg>Diktamos</reg>
@@ -631,9 +631,9 @@
                               til at flyde / oc renser Moderen.</p>
                         <p rend="indent">Osen aff Meyran smurt paa leffrit Blod / atskil det / læger
                               de blaa maal / oc nedtrycker den hoffne Milt.</p>
-                        </div>
+                        </div></div>
                         <div>
-                              <pb/><head><reg>Almindelig merian</reg>
+                        <pb/><head><reg>Almindelig merian</reg>
                               <orig>Vild Meyran Toft.</orig></head>
                               <p rend="indent">
                               <hi rend="antiqua">Origanum. Heraclioticum, Cunila gallica</hi>. Læss
@@ -654,7 +654,7 @@
                                     rend="="/>steligt Mund vand / til at klucke met i Halsen / for
                               Halsens bulde <hi rend="antiqua">Angina</hi> kaldet.</p>
                         <p rend="indent">Vild Meyran i Edicke saaden / er en kaastelig ting til fule
-                              oc wrene Tender / der met thone oc vdi Munden hollet.</p></div>
+                              oc wrene Tender / der met thone oc vdi Munden hollet.</p>
                         <div>
                         <head>Vduaartis.</head>
                         <p rend="indent">Jt Plaaster giort aff Tost eller vild Meyran / met Figen oc
@@ -663,8 +663,8 @@
                         <p rend="indent">Vild Meyran saaden met Vin / luncket paa lagt / lesker Hede
                               oc hues befengd er.</p>
                         <p rend="indent">Den varme damp oc røg at lade opgaa i Ørnene at<lb rend="="
-                              />skil Ørnenis suselse.</p></div>
-                  </div>
+                              />skil Ørnenis suselse.</p>
+                  </div></div>
                   <div>
                         <head><reg>Vild timian</reg>
                               <orig>Vor Frues sengehalm.</orig></head>
@@ -914,7 +914,8 @@
                         <p rend="indent">T. Hazelwort.</p>
                         <p rend="indent">Haselurt er varm oc tør aff Nature / maa brugis ind<lb
                                     rend="="/>uaartis oc vduaartis.</p>
-                        <p>Jnduaartis.</p>
+                        <div>
+                        <head>Jnduaartis.</head>
                         <p rend="indent">Haselurtis rod til Puluer støt / met Sucker / Kanelebarck /
                               oc met andre vrter blandet / til sig taget giør at spy / vddriffues
                                     <hi rend="antiqua">Choleram</hi> oc <hi rend="antiqua"
@@ -926,8 +927,9 @@
                                     rend="="/>tersottige / thi hun obner Leffueren / Lungen / Milten
                               / ren<lb rend="="/>ser Bleren / Nyrene oc Moderen / fremlocker
                               Quindernis tid / oc vddriffuer den anden Fødsel / baade paa Menniske /
-                              Queg oc Fæ.</p>
-                        <p>Vduaartis.</p>
+                              Queg oc Fæ.</p></div>
+                        <div>
+                        <head>Vduaartis.</head>
                         <p rend="indent">Haselurt saaden i Lud / oc Hoffuedet der met thoet /
                               styrcker Hiernen / Hukommelsen oc lesker Heden.</p>
                         <p rend="indent">Vand aff Haselurt brent / haffuer samme krafft / er oc en
@@ -938,9 +940,10 @@
                                     rend="="/>de paa Leffueren / eller paa andre Lemmer / vdslycker
                               den wnaturlige hede.</p>
                         <p rend="indent">Siuglige Quinder skulle icke dricke aff dette Vand / thi
-                              det vddriffuer Fødselen / vere sig Leffuendis eller døtt.</p>
-                        <p>
-                              <hi rend="antiqua">Benedicta</hi>.</p>
+                              det vddriffuer Fødselen / vere sig Leffuendis eller døtt.</p></div></div>
+                        <div>
+                        <head><reg>Korbendikt</reg>
+                        <orig><hi rend="antiqua">Benedicta</hi></orig></head>
                         <p rend="indent">
                               <hi rend="antiqua">Chrisogonum, Gariophilata, Cariophylate, Lago<lb
                                           rend="="/>pus, Pes leporis, Sana munda</hi>. Læss <hi
@@ -949,10 +952,14 @@
                         <p rend="indent">Benedictæ krafft er at varm giøre / at atskilie oc ob<lb
                                     rend="="/>ne. Denne Vrtis rod i Tormaanet opgraffuet / lucter
                               som Neglicker / maa brugis induortis oc vduortis.</p>
-                        <p>Jnduaartis.</p>
+                              <div>
+                        <head>Jnduaartis.</head>
                         <p rend="indent">Benedicta i Vin saaden oc varm drucket / stiller Tar<lb
-                                    rend="="/>menis oc Moderens vred.</p>
-                        <p>Rosemarin.</p>
+                                    rend="="/>menis oc Moderens vred.</p></div>
+                              </div>
+                        <div>
+                        <head><reg>Rosmarin</reg>
+                              <orig>Rosemarin.</orig></head>
                         <p rend="indent">
                               <hi rend="antiqua">Ros marinus, Ros marinum, Coronatium</hi>. Læss.
                                     <hi rend="antiqua">Dios. lib. iij. Cap. lxxi</hi>.</p>
@@ -960,42 +967,45 @@
                               den i stæden for Vid / Oc er samme Vrt aff en hed qualitet / atskil oc
                               subtilig giør / all groff Vædske / baade induortis oc vduortis i
                               Legemet.</p>
-                        <p>Jnduaartis.</p>
-                        <p rend="indent">Rosemarin tien baade til Stegersit oc Kielderen / All Mad
+                              <div>
+                              <head>Jnduaartis.</head>
+                              <p rend="indent">Rosemarin tien baade til Stegersit oc Kielderen / All Mad
                               oc Drick / som her beredis met / ere lystige oc vel sma<lb rend="="
                               />gende / oc sunde / tien fuldnær / til alle Siugdomme.</p>
-                        <p rend="indent">Rosemarine Vin eller Vrterne met Blomsterne i Vin saadne /
+                              <p rend="indent">Rosemarine Vin eller Vrterne met Blomsterne i Vin saadne /
                               om Afftenen oc Morgenen / huer gang en <pb/> varm drick drucket / der
                               paa tre eller fire timer fastet / vd<lb rend="="/>driffuer vnderlige
                               Qutndernis huide flydelse / som aff Byld kommer / oc vnderlige læger
                               Quindernis lønlige Siugdomme.</p>
-                        <p rend="indent">Lige maade bruget / atskil oc vddriffuer den gule Sot /
+                              <p rend="indent">Lige maade bruget / atskil oc vddriffuer den gule Sot /
                               imodstaar den stackede oc trange Aande / hielper vel at fordøffue
                               eller fortære / Lader icke heller Forgifft giøre nogen skade.</p>
-                        <p rend="indent">Stiller Tarmenis vred / renser Blodet / oc giør at suedis /
+                              <p rend="indent">Stiller Tarmenis vred / renser Blodet / oc giør at suedis /
                               om saa er at mand sig i Sengen nedlegger / effter mand haffuer drucket
                               / oc stille ligger.</p>
-                        <p rend="indent">Sucker eller <hi rend="antiqua">Conserua</hi> giort / aff
+                              <p rend="indent">Sucker eller <hi rend="antiqua">Conserua</hi> giort / aff
                               Blomstenre / er saare nytteligt oc krafftigt for Daanelse eller
                                     Besuimmel<lb rend="="/>se / oc samme Sucker skal beredis / lige
                               som Rosen sucker.</p>
-                        <p rend="indent">Vand aff Rosemariner brent / haffuer fuldnær for<lb
+                              <p rend="indent">Vand aff Rosemariner brent / haffuer fuldnær for<lb
                                     rend="="/>screffne dyder. Ydermere tien det oc til dem som
                               haffue mist deris Maal / om de dricke der aff / faa de deris Maal
-                              igien.</p>
-                        <p>Vduaartis.</p>
-                        <p rend="indent">Rosenmarin drucket / oc paa smurt / fordriff<lb rend="="
+                              igien.</p></div>
+                              <div>
+                              <head>Vduaartis.</head>
+                              <p rend="indent">Rosenmarin drucket / oc paa smurt / fordriff<lb rend="="
                               />uer <hi rend="antiqua">Syncopim</hi>, staar imod Suimelse oc
                               Skelffuelse / renser Ansictet der met thoet / giør Tenderne huide / oc
                               en god Aande / renser Siunen / atskil Øynenis hinde.</p>
-                        <p rend="indent">Rosemarine vand / eller Rosemarin / oc den vilde Polleye
+                              <p rend="indent">Rosemarine vand / eller Rosemarin / oc den vilde Polleye
                               tilhobe saadne / renser oc læger onde fule Saar / vere sig Kræfft /
                               Vlffuen / Fistel ete.</p>
-                        <p rend="indent">
+                              <p rend="indent">
                               <hi rend="antiqua">Fomenta</hi> (det er) Røg oc Suedbad / aff
                                     Rosemari<lb rend="="/>ner giorde / haffue samme krafft oc dyd /
                               som den tamme Mynte oc de tamme oc vilde Polleyer.</p>
                   </div>
+                        </div>
                   <div>
                         <head><reg>Rude</reg>
                               <orig>Rude.</orig></head>
@@ -1006,8 +1016,8 @@
                         <p rend="indent">Rude er aff hed oc tør complexie / staar imod all For<lb
                                     rend="="/>gifft oc Eder / maa brugis induaartis oc
                               vduaartis.</p>
-                        <p>
-                              <pb/>Jnduaartis.</p>
+                        <div>
+                              <pb/><head>Jnduaartis.</head>
                         <p rend="indent">Rude oc hendis frøi Vin saaden / oc varm drucket / stiller
                               Hiernens oc Sidernis pine / obner Lungens rør / sacter Hosten / læt
                               giør den suare Aande / fordriffuer Lendernis oc andre Ledemoders
@@ -1022,18 +1032,19 @@
                                     rend="="/>gens flydelse / <hi rend="antiqua">Diarrhoam</hi>
                               kaldet.</p>
                         <p rend="indent">Rude met Bomolie saaden oc den drucket / vddriff<lb
-                                    rend="="/>uer allehaande Orm.</p>
-                        <p>Vduaartis.</p>
+                                    rend="="/>uer allehaande Orm.</p></div>
+                        <div>
+                        <head>Vduaartis.</head>
                         <p rend="indent">Rude støt met Rosen edicke oc fore paa Panden bun<lb
                                     rend="="/>det / stiller Hoffuedens store pine.</p>
                         <p rend="indent">Rude oes i Øret lat / stiller pinen.</p>
                         <p rend="indent">Rude met rent Bygmel støt / oc offuer Øynene lagt som it
                               Plaaster / stiller Øyneuerck / oc beskermer dem for Dumhed.</p>
                         <p rend="indent">Rude oes met Alun / Salpeter oc Honnig blandet / læger alle
-                              Ringorme / Flecter / Sammeledis det bulne oc skurffuede Hoffuet.</p>
+                              Ringorme / Flecter / Sammeledis det bulne oc skurffuede Hoffuet.</p></div>
                   </div>
                   <div>
-                        <head><reg>Jordhumle</reg>
+                        <head><reg>Johannesurt</reg>
                               <orig>Jordhumle eller Brundeman<lb rend="="/>ne porss.</orig></head>
                         <p rend="indent">
                               <hi rend="antiqua">Hypericon, Perofrata, fuga Demonum</hi>. Læss <hi
@@ -1043,7 +1054,8 @@
                               <pb/>Hypericon haffuer fuldnær ens krafft som Rude / er tilbøyelig til
                               tørhed oc varme / er lysteligere til at bruge end Rude / Maa brugis
                               induaartis oc vduaartis.</p>
-                        <p>Jnduaartis.</p>
+                        <div>
+                              <head>Jnduaartis.</head>
                         <p rend="indent">Somme brende Vand aff hende / oc giffue det for Popelsie /
                               oc for den faldende sot at dricke.</p>
                         <p rend="indent">Vddriffuer Eder oc Forgifft / giør at pisse / fremlocker
@@ -1053,9 +1065,11 @@
                               stiller oc Blodspielse / læger Bulde oc Saar induaartis i Liffuet.</p>
                         <p rend="indent">Jordhumlis frø (serdelis aff den som voxer i Sko<lb
                                     rend="="/>uen) til Puluer støt / huer gang ij. Quintin drucket /
-                                    vd<lb rend="="/>driffuer <hi rend="antiqua">Choleram</hi>.</p>
-                        <p>
-                              <hi rend="antiqua">Cypresse</hi>.</p>
+                                    vd<lb rend="="/>driffuer <hi rend="antiqua">Choleram</hi>.</p></div>
+                  </div>
+                        <div>
+                        <head><reg>Cypresurt</reg>
+                              <orig><hi rend="antiqua">Cypresse</hi>.</orig></head>
                         <p rend="indent">
                               <hi rend="antiqua">Ciperssus, Cupressus, Cupressina</hi>. Læss <hi
                                     rend="antiqua">Dios. lib. iij. in fine</hi>.</p>
@@ -1064,7 +1078,8 @@
                               oc qua<lb rend="="/>liter lige / saare nyttelige / baade induaartis oc
                               vduaartis / Haffue fuldnær en luct oc smag / Thi maa den ene brugis
                               for den anden.</p>
-                        <p>Jnduaartis.</p>
+                        <div>
+                        <head>Jnduaartis.</head>
                         <p rend="indent">
                               <hi rend="antiqua">Cypressis</hi> vrt saaden vdi Vin oc i siu samfelde
                               dage effter huer anden / om Morgenen oc om Afftenen drucket / er god
@@ -1076,6 +1091,7 @@
                               oc den edele Cypresse giøre / thier det intet behoff at mand der om
                               ydermere scriffuer.</p>
                   </div>
+                        </div>
                   <div>
                         <head><reg>Karse</reg>
                               <orig>
@@ -1088,7 +1104,8 @@
                         <p rend="indent">Fire haande slags karse finde wi i Lægebøgerne / ere alle
                               aff en hed complexie / lige som Senup er / Maa brugis induaartis oc
                               vduaartis.</p>
-                        <p>Jnduaartis.</p>
+                        <div>
+                        <head>Jnduaartis.</head>
                         <p rend="indent">Allehaande Karse induaartis bruget / giøre at pisse / rense
                               Bugen / Nyrerne oc Blæren / obne Leffue<lb rend="="/>ren oc Milten /
                               hele oc læge induaartis Saar / vddriffue Eder oc Forgifft / bruget met
@@ -1100,8 +1117,9 @@
                               for Brystet.</p>
                         <p rend="indent">Osen aff Karse i Munden holdet / vddrager de on<lb rend="="
                               />de Tendernis flydelse.</p>
-                        <p rend="indent">Met Honnig drucket / døder Ormene oc vddriffuer dem.</p>
-                        <p>Vduaartis.</p>
+                        <p rend="indent">Met Honnig drucket / døder Ormene oc vddriffuer dem.</p></div>
+                        <div>
+                              <head>Vduaartis.</head>
                         <p rend="indent">Karsse støt met vrt oc oes oc lagt offuer Skab oc for<lb
                                     rend="="/>gifftige Blegner / vere sig Catbunckel / flecter etc.
                               renser oc læger dem.</p>
@@ -1126,7 +1144,7 @@
                         <p rend="indent">Karsse saaden met Figen / oc der aff i Munden hol<lb
                                     rend="="/>det opløffter den nedfaldne drobel.</p>
                         <p rend="indent">Karsse støt til Puluer / oc strødt paa Bagtarmen som
-                              vdgaaen er / indsætter hannem igien.</p>
+                              vdgaaen er / indsætter hannem igien.</p></div>
                   </div>
                   <div>
                         <head><reg>Pileurt</reg>
@@ -1141,7 +1159,8 @@
                         <p rend="indent">Pilurt eller Loppeurt / er skarp oc hed / den stund hun
                               grøn oc fersk er / skal mere brugis vduaartis end induaar<lb rend="="
                               />tis.</p>
-                        <p>Vduaartis.</p>
+                        <div>
+                        <head>Vduaartis.</head>
                         <p rend="indent">Den hede Pilurt brender mere paa Tungen end Peber / Thi er
                               den vdkryste oes god til onde oc fult Saar / baade paa Menniske oc paa
                               Queg oc Fæ / der met thoet.</p>
@@ -1152,7 +1171,7 @@
                         <p rend="indent">Denne Vrt / om Morgenen optagen den stund Dug<lb rend="="
                               />gen er paa hende oc strødt paa Lofft eller Kammer / der som Lopper
                               ere / da fordriffuer hun dem / om saa er at gulffuet strax lidet der
-                              effter rent feyis.</p>
+                              effter rent feyis.</p></div>
                   </div>
                   <div>
                         <head><reg>Sennep</reg>
@@ -1163,7 +1182,8 @@
                         <p rend="indent">T. Sennip.</p>
                         <p rend="indent">Brun oc huid Senip / ere aff hed complexie / deris nature
                               er at atskillie / oc vddrage / Maa brugis induaartis oc vduaartis.</p>
-                        <p>Jnduaartis.</p>
+                        <div>
+                        <head>Jnduaartis.</head>
                         <p rend="indent">Sennip er kommen i Stegersit for sin skarpe dyd skyld / Thi
                               brugis Sennip fuldnær til alle Rætter / saa vel aff de fattige som aff
                               de rige / vden all tuil for den skyld / at hand renser Hiernen /
@@ -1190,8 +1210,9 @@
                               paa Lungen er oc god til dem / som haffue den Gule sot / imodstaar oc
                               døder Forgifft / som nogen haffuer til sig taget / met Vin drucket. Oc
                               effterdi at denne Senup vaaxer vdi met Gerdene actis hand icke aff
-                              nogen.</p>
-                        <p>Vduaartis.</p>
+                              nogen.</p></div>
+                        <div>
+                        <head>Vduaartis.</head>
                         <p rend="indent">Jt Plaaster giort aff Senuppe frø oc Edicke / oc lagt paa
                               røde Blegner / blødgiør dennem.</p>
                         <p rend="indent">Saaledis bruget / døder den huide Skab oc spedalsk Sot.</p>
@@ -1214,10 +1235,10 @@
                                     rend="antiqua">verbena femella</hi> kaldet) støt met honig oc
                               Vand / oc til it Plaster giort / oc paa lagt / fordriffuer de Knuder
                               oc Heff<lb rend="="/>uelser som bag Ørnene vaaxe / atskil Quindernis
-                              Bryster Vorters heffuelse / oc de lønlige Ledemods.</p>
+                              Bryster Vorters heffuelse / oc de lønlige Ledemods.</p></div>
                   </div>
                   <div>
-                        <head><reg>Jordrøg</reg>
+                        <head><reg>Lægejordrøg</reg>
                               <orig>
                                     <pb/>Jordrøg.</orig></head>
                         <p rend="indent">
@@ -1228,7 +1249,8 @@
                         <p rend="indent">Jordrøg er varm oc aff tør nature / skarp oc besk som
                               Malurt / Atskil oc subtilig giør / igiennem trenger / maa brugis
                               induaartis oc vduaartis.</p>
-                        <p>Jnduaartis.</p>
+                        <div>
+                        <head>Jnduaartis.</head>
                         <p rend="indent">Denne Vrt er en ret Skab vrt oc Pocke vrt / Thi alle som
                               saadan breck oc Siugdomme læge / de giffue tilfor<lb rend="="/>ne vdi
                               nogle dage de siuge at dricke denne Vrtis vand met Theragelse / oc
@@ -1241,8 +1263,9 @@
                         <p rend="indent">Munden thoen met denne Vrtis vand / fordriffuer det onde i
                               Munden / oc borttager pinen.</p>
                         <p rend="indent">Denne vrt saaden met Fenickel / oc drucket / obner
-                              Leffueren / oc vddriffuer den gule Sot igiennem pisset.</p>
-                        <p>Vduaartis.</p>
+                              Leffueren / oc vddriffuer den gule Sot igiennem pisset.</p></div>
+                        <div>
+                        <head>Vduaartis.</head>
                         <p rend="indent">Osen aff Jordrøg / eller Vand aff hende brent / oc vdi
                               Øynene lat / giør dem klare / fordriffuer deris Rød<lb rend="="/>me oc
                               Skab.</p>
@@ -1251,10 +1274,10 @@
                         <p rend="indent">
                               <pb/>Osen aff Jordrøg / met lige saa meget Oes aff de gule Skreppe
                               røder met Edicke oc Honnig blandet / oc der affen Salue giort / oc
-                              allehaande Skab der met smurt / læger dem vden all tuil.</p>
+                              allehaande Skab der met smurt / læger dem vden all tuil.</p></div>
                   </div>
                   <div>
-                        <head><reg>Chelidonia</reg>
+                        <head><reg>Svaleurt</reg>
                               <orig>Chelidonia.</orig></head>
                         <p rend="indent">
                               <hi rend="antiqua">Chelidonium maius, Hyrundinaria</hi>. Læss <hi
@@ -1263,7 +1286,8 @@
                         <p rend="indent">Den beske Chelidonie rod oc Oes / er aff hed natu<lb
                                     rend="="/>re / induaartis bruget / obner den forstoppede Leffuer
                               / vd<lb rend="="/>uaartis renser hun fule Saar.</p>
-                        <p>Jnduaartis.</p>
+                        <div>
+                        <head>Jnduaartis.</head>
                         <p rend="indent">Chelidonie i huid Vin saaden met Anis / oc drucket / obner
                               Leffueren / oc fordriffuer den gule Sot.</p>
                         <p rend="indent">Det samme giør oc det brende Vand / i nogle dage
@@ -1272,8 +1296,9 @@
                               / siden kryst igiennem en Klud / och saa der i sønder reffuet iij.
                               lodt god Theragelse / oc aff samme Drick it Vinglas fult drucket /
                               siden sig ned lagt oc der paa suedet / er it forsøgt stycke til dem
-                              som met Pestilentze befengde ere.</p>
-                        <p>Vduaartis.</p>
+                              som met Pestilentze befengde ere.</p></div>
+                        <div>
+                        <head>Vduaartis.</head>
                         <p rend="indent">Chelidonie Oes i Maymaanet samlet / oc saaden met Honnig
                               vdi it Kaaberkar / er en kaastelig Læ<lb rend="="/>gedom til Øyen /
                               giør dem klare / om mand der aff i dem drøper.</p>
@@ -1284,7 +1309,7 @@
                         <p rend="indent">
                               <pb/>Osen aff Chelidonie rod / læger Fisteler / Krefft / Vlffuen / oc
                               andre fule Saar.</p>
-                        <p rend="indent">Fordriffuer Tanduerck / i Munden holdet met Edicke.</p>
+                        <p rend="indent">Fordriffuer Tanduerck / i Munden holdet met Edicke.</p></div>
                   </div>
                   <div>
                         <head><reg>Koriander</reg>
@@ -1296,7 +1321,8 @@
                                     rend="="/>ders vrt / Er aff kold oc tør Compler / brugis icke
                               indua ar<lb rend="="/>tis i Legemet / Men det velluctendis mødne frø /
                               er aff varm nature / maa brugis induaartis oc vduaartis.</p>
-                        <p>Jnduaartis.</p>
+                        <div>
+                        <head>Jnduaartis.</head>
                         <p rend="indent">Corianders frø lagt i blød en nat i Vin eller Edicke / oc
                               siden igien tiurt / er it kaasteligt frø til Maff<lb rend="="/>uen /
                               at nedtrycke den onde forgifftige Røg oc Damp met / Thi kand mand der
@@ -1307,8 +1333,9 @@
                               offuerkastis / paa det at de icke tage til dem Forgifft oc Eder / for
                                     Lægedo<ex>m</ex>.</p>
                         <p rend="indent">Coriander som er beredt / met sød Vin drucket / dø<lb
-                                    rend="="/>der Ormene i Liffuet / fremlaacker Quindernis tid.</p>
-                        <p>Vduaartis.</p>
+                                    rend="="/>der Ormene i Liffuet / fremlaacker Quindernis tid.</p></div>
+                        <div>
+                        <head>Vduaartis.</head>
                         <p rend="indent">Corianders vrt met Bønne mel eller Mel aff fule Erter / oc
                               met Rosen olie støt / er it kaasteligt Pla<lb rend="="/>ster til at
                               nedtrycke alle steder hede Saars heffuelser met / serdelis de lønlige
@@ -1323,11 +1350,11 @@
                         <p rend="indent">Wberedt Coriander / oc serdelis den stund hun grøn oc fersk
                               er / til sig taget / giør Mennisket vilt oc drucket.</p>
                         <p rend="indent">Huo som vederfaris saadant / hand skal strar dricke der paa
-                              saltet Vand / oc Aggeskaler til Puluer støtte / da faar hand bedre
-                              igien.</p>
+                              saltet Vand / oc Æggeskaler til Puluer støtte / da faar hand bedre
+                              igien.</p></div>
                   </div>
                   <div>
-                        <head><reg>Nigella</reg>
+                        <head><reg>Sortkommen</reg>
                               <orig>Nigella.</orig></head>
                         <p rend="indent">
                               <hi rend="antiqua">Gith, Melanthium</hi>. Frøet kaldis / <hi
@@ -1341,7 +1368,8 @@
                         <p rend="indent">Vild oc tam Coriander / ere aff varme complexer at<lb
                                     rend="="/>skilie oc vddriffue / maa brugis til skellighed
                               induaartis oc vduaartis.</p>
-                        <p>Jnduaartis.</p>
+                        <div>
+                        <head>Jnduaartis.</head>
                         <p rend="indent">Frøet aff disse Vrter skulle icke brugis ferske el<lb
                                     rend="="/>ler grøne induaartis i Legemet / men naar de aldelis
                                     mod<lb rend="="/>ne oc tørre ere / da maa de bagis i Brød / lige
@@ -1352,8 +1380,9 @@
                               Tarmenis vred.</p>
                         <p rend="indent">Men om mand tager formeget aff samme frø / eller det som
                               grønt er / til sig / da bliffuer det til en forgifftig Læ<lb rend="="
-                              />gedom.</p>
-                        <p>Vduaartis.</p>
+                              />gedom.</p></div>
+                        <div>
+                        <head>Vduaartis.</head>
                         <p rend="indent">
                               <pb/>Frøet aff begge Nigelle vrter vduaartis paa Legemet bruget /
                               haffuer samme krafft oc dyd som Corian<lb rend="="/>der. Thi de
@@ -1364,10 +1393,10 @@
                         <p rend="indent">Den vilde Nigelle frø haffuer end sterckere Luct / oc er
                               krafftigere / end den tamme Nigelle frø er.</p>
                         <p rend="indent">En røg giort aff Nigella / fordriffuer Hugorme oc andre
-                              forgifftige Diur.</p>
+                              forgifftige Diur.</p></div>
                   </div>
                   <div>
-                        <head><reg>Valmue</reg>
+                        <head><reg>Kornvalmue</reg>
                               <orig>Valmuer. Som vaaxe iblant Korn.</orig></head>
                         <p>
                               <hi rend="antiqua">Papauer erraticum, Rhoes</hi>.</p>
@@ -1379,7 +1408,8 @@
                               stille pinen / oc giøre at soffue. Vand aff dem brent / sammeledis
                               deris frø / maa brugis induaartis oc vduaar<lb rend="="/>tis / dog
                               maadelige.</p>
-                        <p>Jnduaartis.</p>
+                        <div>
+                        <head>Jnduaartis.</head>
                         <p rend="indent">Fem eller sex aff disse Valmue hoffuet / met de<lb rend="="
                               />ris frø i Vin saadne paa helfften / oc drucket / giør maade<lb
                                     rend="="/>lig Søffn.</p>
@@ -1390,10 +1420,10 @@
                                     rend="="/>tis hede / Dette Vand maa mand dricke vden all fare /
                               vdi hede brendendis kaalde siuger / Thi dette Vand køler Leff<lb
                                     rend="="/>ueren / slycker heden i Halsen / fordriffuer brynne /
-                              drucket oc der met klucket.</p>
+                              drucket oc der met klucket.</p></div>
                   </div>
                   <div>
-                        <head><reg>Havevalmue</reg>
+                        <head><reg>Opiumsvalmue</reg>
                               <orig>
                                     <pb/>Valmuer som vaaxe i Haffue.</orig></head>
                         <p rend="indent">
@@ -1405,7 +1435,8 @@
                                     rend="="/>ues det huide Valmue frø / Dernæst det røde / oc siden
                               den sorte / Alle stille pinen / giøre at soffue / Maa brugis ind<lb
                                     rend="="/>uaartis oc vduaartis.</p>
-                        <p>Jnduaartis.</p>
+                        <div>
+                        <head>Jnduaartis.</head>
                         <p rend="indent">Mand maa bage det huide Valmue frø vdi Brød / lige som
                               kommen bagis / er lystigt i all Mad / maa brugis vden all fare.</p>
                         <p rend="indent">Er god til dem som suimmelse haffue / oc er it expe<lb
@@ -1421,8 +1452,9 @@
                               selff / eller met Vin drucket / stiller oc førhindrer Hoff<lb rend="="
                               />uedens flydelse som ned paa Lungen falder / stiller den haarde
                               skarpe Hoste / Saaledis bruget / stopper allehaan<lb rend="="/>de
-                              Bugens flydelse / oc andre Quindfolckernis flydelse.</p>
-                        <p>Vduaartis.</p>
+                              Bugens flydelse / oc andre Quindfolckernis flydelse.</p></div>
+                        <div>
+                        <head>Vduaartis.</head>
                         <p rend="indent">Allehaande slags Valmuer / Sammeledis deris oes / Vrterne
                               eller Vand aff dennem brent / ere alle gode oc nyttelige / til vilde
                               oc wrolige Mennisker / som icke soffue kunde / paa Panden oc i
@@ -1442,7 +1474,7 @@
                               dem tilhobe / oc det saa vd perse / lade saa sam<lb rend="="/>me oes
                               tørris mod Solen. Somme anamme alleniste Melcken der aff / lade den
                               lige saa tørris mod Solen. For<lb rend="="/>neffnde oes kalde
-                              Apoteckerne <hi rend="antiqua">Opium</hi>.</p>
+                              Apoteckerne <hi rend="antiqua">Opium</hi>.</p></div>
                   </div>
                   <div>
                         <head><reg>Bulmeurt</reg>
