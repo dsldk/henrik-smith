@@ -84,11 +84,9 @@
       </titlePage>
       <div>
         <head>
-          <reg>Forord til Anne Urne</reg>
+          <reg>Forord til Anne Urne</reg><orig><pb n="i"/>Erlig oc Velbyrdig Quinde / Frue <lb/> Anne Claus Vrnis til Beltebierg / ynsker
+            <lb/> ieg Henrick Smid i Malmø Naade oc Fred <lb/> aff vor HERre Christo.</orig>
         </head>
-        <opener>
-          <pb n="i"/>Erlig oc Velbyrdig Quinde / Frue <lb/> Anne Claus Vrnis til Beltebierg / ynsker
-          <lb/> ieg Henrick Smid i Malmø Naade oc Fred <lb/> aff vor HERre Christo.</opener>
         <p>
           <hi rend="initial">K</hi>Jere Frue Anne / ieg haffuer handlet vdi min tredie Vrtegaards
           Bog om atskillige Soter / Brøst oc Breck / som baade Mend oc Quind<lb rend="="/>folck
@@ -1685,6 +1683,7 @@
             Hiertet / skulle her til brugis de ting som resoluere oc atskillie / lige som disse
             giøre / Cammilleblommer / den Katteost <hi rend="antiqua">Althea</hi>, Amur / Hørfrø /
             etc.</p>
+          
           <p rend="indent">Dette Plaaster stiller pinen oc giør Bylden
             mod.<!--<note
                         type="right">
@@ -2593,11 +2592,11 @@
         <head><reg>5. kapitel</reg>
           <orig>Det v. Capittel. <lb/> Mund eller Læbe reffne de.</orig></head>
         <p> BØrnsens Munde oc Læbe vdslas el<lb rend="="/>ler reffne / huilcket kommer aff Moderens
-          vaarters skarphed oc haardhed / da skal mand tage Osen aff Veybred / eller wsal<lb
+          vaarters skarphed oc haardhed / da skal mand tage Osen aff Veybred / eller wsaltet<lb
             rend="="/>
           <!--<note place="left">
                         <hi rend="antiqua">Succus plantaginis.  Butirum.  Pinguede
-                            gallinæ</hi>.</note>-->tet
+                            gallinæ</hi>.</note>-->
           Rmør / eller oc ferskt Hønse Jster / oc smelte disse alle tilsammen om mand vil / Saa skal
           mand her vdi vaadgiøre nogen Bomuld / oc legge den paa steden som saargiort er.</p>
       </div>
@@ -3744,7 +3743,7 @@
       </div>
       <div>
         <head><reg>38. kapitel</reg>
-          <orig>Det xxxviij. Capittel. <lb/> Om Børn kunde icke lade de<lb rend="="/>ris
+          <orig>Det xxxviij. Capittel. <lb/> Om Børn kunde icke lade de=<lb rend="="/>ris
             Vand.</orig></head>
         <p> OM noget vngt eller spædt Barn faar Sten eller for sand skyld / kand icke lade sit Vand
           / Da skal mand tage en Haand fuld aff Agerne / oc siude dem vdi halffanden potte ferst
