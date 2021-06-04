@@ -81,7 +81,7 @@
             <pb/>
             <div>
                 <head>
-                    <reg>Forord til Claus Urne</reg>
+                    <reg>Forord til Claus Urne</reg><orig>Fortalen.</orig>
                 </head>
                 <opener>
                     <pb/>Erlig oc Velbyrdig Mand / Claus <lb/> Vrne til Belteberg / Prouest vdi Lund
@@ -282,7 +282,7 @@
                 <pb/>
             </div>
             <div>
-                <head><reg>x</reg>
+                <head><reg>Sjælens og samvittighedens lægedom</reg>
                     <orig>Her endis Doctor Morthen Luthers <lb/> raad om legemlig Lægedom: Oc følger
                         her <lb/> nu effter hans raad om Siælens oc <lb/> Samuittighedens
                         Lægedom.</orig></head>
@@ -1109,8 +1109,9 @@
                     lige som forscreffuet staar / disligeste tredie gang / Dette skal brugis indtil
                     den Siuge beholder det hos sig / beholder hand det hos sig / da er Hiertet icke
                         for<lb rend="="/>giffuet.</p>
-                <p>
-                    <hi rend="antiqua">Bolas Armenus</hi>.</p>
+                <div>
+                <head>
+                    <hi rend="antiqua">Bolas Armenus</hi>.</head>
                 <p rend="indent">
                     <hi rend="antiqua">Bolas Armenus</hi>, oc <hi rend="antiqua">Terra
                         sigillata</hi>, brugis offte i Lægedommen / Thi vil ieg her lære / huorledis
@@ -1137,7 +1138,7 @@
                             rend="="/>menus</hi>, try lodt / disse skulle stødis til Puluer oc
                     blandis met lige megen god Theragelse / om mand kand den be<lb rend="="/>komme /
                     her aff skal mand giffue it quintin lige som før<lb rend="="/>te om andre
-                    Lægedomme sagt er.</p>
+                    Lægedomme sagt er.</p></div>
             </div>
             <div>
                 <head><reg>7. kapitel</reg>
@@ -1652,7 +1653,8 @@
                     aff hed nature / da er den Siugis Tunge tør oc reffnis / oc haffuer stor tørst /
                     <pb/> oc vorder mactløs / oc faar sting til Hiertet / vemser saa<lb rend="="/>re
                     / stundem faar mand oc stor Bugløb.</p>
-                <p>Lægedom.</p>
+                <div>
+                <head>Lægedom.</head>
                 <p rend="indent">Fornemmer nogen faaresagde Tegn / da skal hand strax tage <hi
                         rend="antiqua">Bolas</hi> oc <hi rend="antiqua">Terram sigillatam</hi>, oc
                     støde disse til puluer / oc dricke her aff it quintin met Gede<lb rend="="
@@ -1661,10 +1663,11 @@
                 <p rend="indent">Haffuer Ederet veret aff kaald nature / da
                     soffue<!--<note place="right">Forgifft aff  kaald nature.</note>--> alle hans
                     Lemmer / oc Krampe tager hannem / oc Tun<lb rend="="/>gen bliffuer lam / saa at
-                    hand kand icke vel tale.</p>
-                <p>Lægedom.</p>
+                    hand kand icke vel tale.</p></div>
+                <div>
+                <head>Lægedom.</head>
                 <p rend="indent">Mand skal strax giffue den Siuge it quintin ret god Theragelse /
-                    eller døer hand aff Forgifftelsen.</p>
+                    eller døer hand aff Forgifftelsen.</p></div>
             </div>
             <div>
                 <head><reg>16. kapitel</reg>
@@ -1676,8 +1679,9 @@
                     deris Siun / stundem bide oc stinge en / stundem vdspy de deris Forgifft oc Eder
                     vdi Kar oc Fad / som mand haffuer sin Mad oc Drick vdi / stundem forgiffue de en
                     met deris Aande oc onde Luct.</p>
-                <p>
-                    <pb/>Lægedom.</p>
+                <div>
+                <head>
+                    <pb/>Lægedom.</head>
                 <lb/>
                 <!--<note place="left">
                     <hi rend="antiqua">Ruta <lb /> Galbanum. <lb /> Cornu
@@ -1690,7 +1694,7 @@
                     Orme.</p>
                 <p rend="indent">De rige oc store Herrer de skulle haffue vdi deris Gaarde oc
                     Haffuer / Paafugle / Storcke / Kraner / thi at alle forgifftige Diur fly for
-                    disse aff ret natur.</p>
+                    disse aff ret natur.</p></div>
             </div>
             <div>
                 <head><reg>17. kapitel</reg>
